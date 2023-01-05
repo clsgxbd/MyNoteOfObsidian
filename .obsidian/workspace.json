@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日记/2022-12-08.md",
+                "file": "日记/2022-12-26-微服务组件使用.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日记/2022-12-08.md",
+                "file": "日记/2022-12-26-微服务组件使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日记/2022-12-08.md"
+                "file": "日记/2022-12-26-微服务组件使用.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日记/2022-12-08.md",
+                "file": "日记/2022-12-26-微服务组件使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.5
+    "width": 342.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,17 +148,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7f6ecf9461e9c317",
+  "active": "04d5b49a42e575dd",
   "lastOpenFiles": [
-    "日记/2022-12-07-首页分析.md",
+    "日记/2022-12-11.md",
+    "日记/2022-12-10.md",
+    "日记/2022-12-09-ES的DSL语句和nested介绍.md",
     "日记/2022-12-08.md",
+    "日记/2022-12-07-首页分析.md",
     "日记/2022-12-06-缓存问题和分布式锁.md",
     "日记/2022-12-05.md",
     "日记/2022-12-03-商品详情页分析.md",
     "日记/2022-12-02-thymeleaf写法回顾.md",
-    "日记/2022-11-30.md",
-    "日记/2022-11-29.md",
-    "日记/2022-11-28-spu和sku.md",
-    "日记/2022-11-27-阶段复习内容.md"
+    "日记/2022-11-30.md"
   ]
 }

@@ -3,6 +3,17 @@
 
 - [ ] 1.5的FutureTask 封装Callable 方式创建线程; 因为get返回值存在阻塞问题 ; 所以1.8出来 ComplateableFuture 异步回调
 
+```
+Future future = new FutureFutureTask(new Callable(){
+	Intager call(){
+		return 1;
+	}
+})
+
+Intager i =  future.get();
+sout(i);  // 结果为 1
+
+```
 ## 2. 首页分类列表
 
 - [ ] 渲染形式
