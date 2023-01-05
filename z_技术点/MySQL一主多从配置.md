@@ -25,7 +25,7 @@ docker rm 容器ID/容器名称 容器ID/容器名称;
 
 - 主服务器：容器名`atguigu-mysql-master`，端口`3306`  **注意：将以前RPM安装Mysql服务停止**
 - 从服务器：容器名`atguigu-mysql-slave1`，端口`3307`
-- 从服务器：容器名`atguigu-mysql-slave2`，端口`3308`
+- 从服务器：容器名`atguigu-mysql-slave2`，端口`3308` 
 
 **注意：**如果此时防火墙是开启的，`则先关闭防火墙，并重启docker`，否则后续安装的MySQL无法启动
 
