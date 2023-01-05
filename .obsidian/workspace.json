@@ -11,8 +11,13 @@
             "id": "1b5b033fa057407f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "日记/2022-11-09-B加树.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "日记/2022-11-09-B加树.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +113,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "日记/2022-11-09-B加树.md"
+              }
             }
           },
           {
@@ -116,6 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "日记/2022-11-09-B加树.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,15 +151,15 @@
   },
   "active": "1b5b033fa057407f",
   "lastOpenFiles": [
-    "日记/2023-01-05.md",
-    "日记/2023-01-04.md",
+    "日记/2022-11-10-面试题.md",
+    "日记/2022-11-11.md",
+    "日记/2022-11-09-B加树.md",
+    "日记/2022-11-08-MySQL8高级.md",
+    "日记/2023-01-05-公司面试题.md",
+    "日记/2023-01-04-过年两周假期安排.md",
     "日记/2022-12-29.md",
     "复习笔记/JavaEE_分布式事务.md",
     "z_技术点/未命名 1.canvas",
-    "z_技术点/未命名.canvas",
-    "项目/电商项目总结/电商总结.md",
-    "z_技术点/布隆过滤器.md",
-    "z_技术点/MySQL一主多从配置.md",
-    "z_技术点/Zipkin 链路追踪.md"
+    "z_技术点/未命名.canvas"
   ]
 }
