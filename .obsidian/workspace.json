@@ -4,44 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "017fd1cf889edb38",
-        "type": "split",
+        "id": "0cc682feec2e91ba",
+        "type": "tabs",
         "children": [
           {
-            "id": "11f403d4e189fee2",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "9ac6ba90b0332c7d",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "日记/2023-01-05.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
+            "id": "aa086f1974b7a204",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "日记/2023-01-05.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
-            ]
-          },
-          {
-            "id": "20b3bbb8368e0977",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "0ffe425a36055686",
-                "type": "leaf",
-                "state": {
-                  "type": "mindmap",
-                  "state": {}
-                }
-              }
-            ]
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -170,7 +149,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9ac6ba90b0332c7d",
+  "active": "aa086f1974b7a204",
   "lastOpenFiles": [
     "日记/2023-01-05.md",
     "日记/2023-01-04.md",
