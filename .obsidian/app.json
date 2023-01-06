@@ -8,5 +8,5 @@
   "newFileFolderPath": "z_技术点",
   "useMarkdownLinks": true,
   "livePreview": true,
-  "readableLineLength": true
+  "readableLineLength": false
 }
