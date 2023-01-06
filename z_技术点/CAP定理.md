@@ -14,7 +14,7 @@
 Zookeeper: CP
 Eureka: AP
 Nacos: 既支持CP 也支持 AP 模式可以修改
-
+![](image/Pasted%20image%2020230106153517.png)
 
 ## CAP特点: 
 
