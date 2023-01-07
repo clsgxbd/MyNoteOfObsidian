@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日记/2023-01-07.md",
+                "file": "z_技术点/MySQL索引失效.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -64,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "单例",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,7 +81,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -166,15 +167,15 @@
   },
   "active": "1245e4ca052543b6",
   "lastOpenFiles": [
-    "日记/2023-01-07.md",
+    "z_技术点/MySQL索引失效.md",
+    "复习笔记/MySQL8高级-架构和优化.md",
+    "z_技术点/GOF的23种设计模式.md",
+    "日记/2023-01-05-公司面试题.md",
+    "面试题/公司面试题.md",
     "日记/2023-01-07-简历编写.md",
+    "日记/2023-01-07.md",
     "日记/2022-12-29-复合主键.md",
     "日记/未命名.md",
-    "面试题/公司面试题.md",
-    "日记/2023-01-06.md",
-    "日记/2023-01-05-公司面试题.md",
-    "README.md",
-    "z_技术点/CAP定理.md",
-    "z_技术点/GOF的23种设计模式.md"
+    "日记/2023-01-06.md"
   ]
 }
