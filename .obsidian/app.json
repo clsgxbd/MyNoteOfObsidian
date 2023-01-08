@@ -8,5 +8,7 @@
   "newFileFolderPath": "z_技术点",
   "useMarkdownLinks": true,
   "livePreview": true,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "vimMode": false,
+  "tabSize": 2
 }
