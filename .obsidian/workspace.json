@@ -6,7 +6,7 @@
       {
         "id": "c0c336e3a042c020",
         "type": "tabs",
-        "dimension": 50.31982942430704,
+        "dimension": 46.42857142857143,
         "children": [
           {
             "id": "1ad2fc0cf316402f",
@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "项目/电商项目总结/电商总结.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -26,7 +26,7 @@
       {
         "id": "f8b1cad7fd300a3f",
         "type": "tabs",
-        "dimension": 49.68017057569296,
+        "dimension": 53.57142857142857,
         "children": [
           {
             "id": "b1568a62583c8bcd",
@@ -173,8 +173,8 @@
   "active": "b1568a62583c8bcd",
   "lastOpenFiles": [
     "项目/电商项目总结/电商总结.md",
-    "日记/2023-01-08.md",
     "项目/医疗项目总结/0项目功能总结.md",
+    "日记/2023-01-08.md",
     "2023-01-07-计划.md",
     "项目/医疗项目总结/image/Pasted image 20221107093614.png",
     "日记/2023-01-07-简历编写.md",
