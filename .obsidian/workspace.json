@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日记/2023-01-07-简历编写.md",
+                "file": "项目/电商项目总结/电商总结.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日记/2023-01-07-简历编写.md",
+                "file": "项目/电商项目总结/电商总结.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日记/2023-01-07-简历编写.md"
+                "file": "项目/电商项目总结/电商总结.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日记/2023-01-07-简历编写.md",
+                "file": "项目/电商项目总结/电商总结.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,8 +150,8 @@
   },
   "active": "b1568a62583c8bcd",
   "lastOpenFiles": [
-    "日记/2023-01-09.md",
     "日记/2023-01-08.md",
+    "日记/2023-01-09.md",
     "日记/2023-01-07-简历编写.md",
     "2023-01-07-计划.md",
     "项目/电商项目总结/电商总结.md",
