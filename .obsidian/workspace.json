@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日记/2023-01-11.md",
+                "file": "日记/2023-01-11-我的面试题.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289.5,
-    "collapsed": true
+    "width": 289.5
   },
   "right": {
     "id": "62a7561fbca6f5c2",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日记/2023-01-11.md",
+                "file": "日记/2023-01-11-我的面试题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日记/2023-01-11.md"
+                "file": "日记/2023-01-11-我的面试题.md"
               }
             }
           },
@@ -125,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日记/2023-01-11.md",
+                "file": "日记/2023-01-11-我的面试题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +148,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7f6ecf9461e9c317",
+  "active": "92f8463037061f04",
   "lastOpenFiles": [
-    "日记/2023-01-11.md",
+    "z_技术点/七层网络模型.md",
+    "日记/2023-01-11-我的面试题.md",
     "日记/2023-01-08.md",
     "日记/2023-01-09.md",
     "日记/2023-01-07-简历编写.md",
@@ -159,7 +159,6 @@
     "项目/电商项目总结/电商总结.md",
     "2023-01-07-计划.md",
     "项目/医疗项目总结/0项目功能总结.md",
-    "项目/医疗项目总结/image/Pasted image 20221107093614.png",
-    "日记/2023-01-07.md"
+    "项目/医疗项目总结/image/Pasted image 20221107093614.png"
   ]
 }
