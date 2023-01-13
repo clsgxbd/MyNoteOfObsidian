@@ -25,5 +25,14 @@
       ],
       "key": "="
     }
+  ],
+  "cmenu-plugin:hide-show-menu": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "/"
+    }
   ]
 }

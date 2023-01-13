@@ -1,10 +1,10 @@
 [
   "reveal-active-file-button",
-  "cmenu-plugin",
   "obsidian-copy-block-link",
   "cm-editor-syntax-highlight-obsidian",
   "media-extended",
   "obsidian-mind-map",
   "obsidian-git",
-  "code-block-copy"
+  "code-block-copy",
+  "cmenu-plugin"
 ]
