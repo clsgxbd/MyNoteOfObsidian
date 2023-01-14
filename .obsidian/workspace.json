@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z_技术点/高内聚-低耦合.md",
+                "file": "日记/2023-01-14.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z_技术点/高内聚-低耦合.md",
+                "file": "日记/2023-01-14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z_技术点/高内聚-低耦合.md"
+                "file": "日记/2023-01-14.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z_技术点/高内聚-低耦合.md",
+                "file": "日记/2023-01-14.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
