@@ -39,8 +39,13 @@
             "id": "3d9d803dbaf0210d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "面试题/公司面试题.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ],
@@ -110,6 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "面试题/公司面试题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +142,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "面试题/公司面试题.md"
+              }
             }
           },
           {
@@ -145,6 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "面试题/公司面试题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
