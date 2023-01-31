@@ -60,9 +60,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5356bd760a0537e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "单词/Maven+SSM单词.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -91,7 +104,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "正则",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,8 +121,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -129,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "单词/JavaSE单词.md",
+                "file": "单词/Maven+SSM单词.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "单词/JavaSE单词.md"
+                "file": "单词/Maven+SSM单词.md"
               }
             }
           },
@@ -167,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "单词/JavaSE单词.md",
+                "file": "单词/Maven+SSM单词.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,8 +203,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9a5192eff59a531b",
+  "active": "5356bd760a0537e7",
   "lastOpenFiles": [
+    "单词/JavaSE单词.md",
     "单词/JavaWeb单词.md",
     "复习笔记/MySQL8高级-ShardingSphere5.md",
     "复习笔记/MySQL8高级-架构和优化.md",
@@ -201,7 +214,6 @@
     "复习笔记/JavaEE_分布式事务.md",
     "复习笔记/A复习重点.md",
     "复习笔记/JavaSE/JavaSE课堂笔记.md",
-    "复习笔记/JavaSE/JavaSE复习总结笔记.md",
-    "日记/2023-01-11-我的面试题.md"
+    "复习笔记/JavaSE/JavaSE复习总结笔记.md"
   ]
 }
