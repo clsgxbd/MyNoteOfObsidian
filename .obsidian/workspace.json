@@ -26,13 +26,43 @@
             "id": "f4b067b58fb5400d",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "z_技术点/阿里Java开发手册.pdf"
+                "file": "复习笔记/MySQL8高级-ShardingSphere5.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a641199d5cc97d8c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "单词/JavaWeb单词.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "09aeefec603bb389",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "单词/JavaSE单词.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -98,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日记/2023-01-11-我的面试题.md",
+                "file": "单词/JavaSE单词.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日记/2023-01-11-我的面试题.md"
+                "file": "单词/JavaSE单词.md"
               }
             }
           },
@@ -136,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日记/2023-01-11-我的面试题.md",
+                "file": "单词/JavaSE单词.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,17 +190,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "92f8463037061f04",
+  "active": "09aeefec603bb389",
   "lastOpenFiles": [
-    "z_技术点/阿里Java开发手册.pdf",
-    "日记/2023-01-11-我的面试题.md",
-    "日记/2023-01-29-应届生求职.md",
-    "日记/2023-01-08.md",
-    "日记/2022-12-27-电商总结.md",
-    "日记/2023-01-30.md",
-    "日记/2023-01-31-笔试题.md",
-    "日记/2023-01-28.md",
-    "日记/2023-01-07-简历编写.md",
-    "日记/2023-01-13.md"
+    "单词/JavaWeb单词.md",
+    "复习笔记/MySQL8高级-ShardingSphere5.md",
+    "复习笔记/MySQL8高级-架构和优化.md",
+    "复习笔记/JavaEE_JVM.md",
+    "复习笔记/JavaEE_JUC.md",
+    "复习笔记/JavaEE_分布式事务.md",
+    "复习笔记/A复习重点.md",
+    "复习笔记/JavaSE/JavaSE课堂笔记.md",
+    "复习笔记/JavaSE/JavaSE复习总结笔记.md",
+    "日记/2023-01-11-我的面试题.md"
   ]
 }
