@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日记/2023-01-31.md",
+                "file": "日记/2023-01-11-我的面试题.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,8 +86,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289.5,
-    "collapsed": true
+    "width": 289.5
   },
   "right": {
     "id": "62a7561fbca6f5c2",
@@ -103,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日记/2023-01-31.md",
+                "file": "日记/2023-01-11-我的面试题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日记/2023-01-31.md"
+                "file": "日记/2023-01-11-我的面试题.md"
               }
             }
           },
@@ -141,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日记/2023-01-31.md",
+                "file": "日记/2023-01-11-我的面试题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,15 +166,15 @@
   },
   "active": "f4b067b58fb5400d",
   "lastOpenFiles": [
-    "日记/2023-01-11-我的面试题.md",
-    "日记/2023-01-31.md",
-    "日记/2023-01-30.md",
     "日记/2023-01-29-应届生求职.md",
-    "日记/2023-01-28.md",
     "日记/2023-01-08.md",
+    "日记/2022-12-27-电商总结.md",
+    "日记/2023-01-11-我的面试题.md",
+    "日记/2023-01-30.md",
+    "日记/2023-01-31-笔试题.md",
+    "日记/2023-01-28.md",
     "日记/2023-01-07-简历编写.md",
     "日记/2023-01-13.md",
-    "日记/2023-01-26.md",
-    "日记/2023-01-19.md"
+    "日记/2023-01-26.md"
   ]
 }
