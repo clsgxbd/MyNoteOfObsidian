@@ -91,7 +91,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "l必会",
+                "query": "正则",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,7 +108,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -190,7 +191,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "09aeefec603bb389",
+  "active": "9a5192eff59a531b",
   "lastOpenFiles": [
     "单词/JavaWeb单词.md",
     "复习笔记/MySQL8高级-ShardingSphere5.md",
