@@ -50,11 +50,21 @@
       "id": "cmenu-plugin:editor:toggle-blockquote",
       "name": "cMenu: Toggle blockquote",
       "icon": "quote-glyph"
+    },
+    {
+      "id": "editor:toggle-numbered-list",
+      "name": "有序列表",
+      "icon": "lucide-list-ordered"
+    },
+    {
+      "id": "editor:toggle-bullet-list",
+      "name": "无序列表",
+      "icon": "lucide-list"
     }
   ],
   "appendMethod": "workspace",
   "shouldShowMenuOnSelect": false,
   "cMenuVisibility": true,
   "cMenuBottomValue": 4.25,
-  "cMenuNumRows": 10
+  "cMenuNumRows": 12
 }

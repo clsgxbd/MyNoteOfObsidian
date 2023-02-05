@@ -77,7 +77,7 @@ docker git maven nginx jenkins （入职）
 
 #### 高级
 
-mysql
+mysql高级
 
 索引 ： hashmap 二叉树 AVL 红黑树 btree b + tree
 

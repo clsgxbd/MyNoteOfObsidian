@@ -4,78 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "baaca272e2bf18c8",
+        "id": "cda24ccbe02d3799",
         "type": "tabs",
         "children": [
           {
-            "id": "92f8463037061f04",
+            "id": "321b2af9ee58c612",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日记/2023-01-11-我的面试题.md",
+                "file": "日记/2022-12-26-电商总结.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "pinned": true
             }
-          },
-          {
-            "id": "f4b067b58fb5400d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "复习笔记/MySQL8高级-ShardingSphere5.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a641199d5cc97d8c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "单词/JavaWeb单词.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "09aeefec603bb389",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "单词/JavaSE单词.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5356bd760a0537e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "单词/Maven+SSM单词.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,7 +52,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": true,
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -125,7 +72,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289.5
+    "width": 267.5
   },
   "right": {
     "id": "62a7561fbca6f5c2",
@@ -141,14 +88,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "单词/Maven+SSM单词.md",
+                "file": "日记/2022-12-26-电商总结.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
-                "unlinkedCollapsed": true
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -169,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "单词/Maven+SSM单词.md"
+                "file": "日记/2022-12-26-电商总结.md"
               }
             }
           },
@@ -179,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "单词/Maven+SSM单词.md",
+                "file": "日记/2022-12-26-电商总结.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,17 +150,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "5356bd760a0537e7",
+  "active": "321b2af9ee58c612",
   "lastOpenFiles": [
-    "单词/JavaSE单词.md",
-    "单词/JavaWeb单词.md",
-    "复习笔记/MySQL8高级-ShardingSphere5.md",
-    "复习笔记/MySQL8高级-架构和优化.md",
-    "复习笔记/JavaEE_JVM.md",
-    "复习笔记/JavaEE_JUC.md",
-    "复习笔记/JavaEE_分布式事务.md",
-    "复习笔记/A复习重点.md",
-    "复习笔记/JavaSE/JavaSE课堂笔记.md",
-    "复习笔记/JavaSE/JavaSE复习总结笔记.md"
+    "README.md",
+    "日记/2023-01-05-公司面试题.md",
+    "日记/2022-12-26-电商总结.md",
+    "日记/2022-12-07-首页分析.md",
+    "日记/2022-12-08.md",
+    "z_技术点/CompletableFuture 异步编排.md",
+    "z_技术点/七层网络模型.md",
+    "z_技术点/Redis.md",
+    "z_技术点/MySQL.md",
+    "z_技术点/MySQL一主多从配置.md"
   ]
 }
