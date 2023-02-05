@@ -23,12 +23,25 @@
             }
           },
           {
-            "id": "f0b49160b4fb531f",
+            "id": "0b0fb3afc38b265f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日记/2023-02-05.md",
+                "file": "日记/2023-01-11-面试题(准备).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ad24d2de1111d1b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "日记/2023-02-06.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -65,7 +78,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#File文件类有哪些API",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,7 +95,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -102,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日记/2023-02-05.md",
+                "file": "日记/2023-01-11-面试题(准备).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日记/2023-02-05.md"
+                "file": "日记/2023-01-11-面试题(准备).md"
               }
             }
           },
@@ -140,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日记/2023-02-05.md",
+                "file": "日记/2023-01-11-面试题(准备).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,17 +178,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "f0b49160b4fb531f",
+  "active": "0b0fb3afc38b265f",
   "lastOpenFiles": [
+    "日记/2023-02-06.md",
+    "日记/2023-01-11-面试题(准备).md",
     "日记/2022-12-26-电商总结.md",
-    "README.md",
+    "日记/2023-01-31-公司笔试题.md",
+    "日记/2023-01-29-应届生求职渠道.md",
+    "日记/2023-01-07-简历编写.md",
     "日记/2023-01-05-公司面试题.md",
-    "日记/2022-12-07-首页分析.md",
-    "日记/2022-12-08.md",
-    "z_技术点/CompletableFuture 异步编排.md",
-    "z_技术点/七层网络模型.md",
-    "z_技术点/Redis.md",
-    "z_技术点/MySQL.md",
-    "z_技术点/MySQL一主多从配置.md"
+    "日记/2023-02-05.md",
+    "README.md",
+    "日记/2022-12-07-首页分析.md"
   ]
 }

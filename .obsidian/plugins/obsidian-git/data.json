@@ -1,6 +1,6 @@
 {
   "commitMessage": "笔记同步:{{date}}-{{hostname}}",
-  "autoCommitMessage": "笔记同步: {{date}} {{hostname}}",
+  "autoCommitMessage": "笔记同步:{{date}}-{{hostname}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
   "autoSaveInterval": 30,
   "autoPushInterval": 0,
