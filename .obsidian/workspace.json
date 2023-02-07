@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日记/2023-01-11-面试题(准备).md",
+                "file": "日记/2023-02-07.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日记/2023-01-11-面试题(准备).md"
+                "file": "日记/2023-02-07.md"
               }
             }
           },
@@ -164,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日记/2023-01-11-面试题(准备).md",
+                "file": "日记/2023-02-07.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,17 +188,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "5e7bfbb09d5d0ad6",
+  "active": "344c35807c7b9a4a",
   "lastOpenFiles": [
-    "日记/2023-02-07.md",
-    "日记/2023-01-11-面试题(准备).md",
     "日记/2023-02-06.md",
-    "日记/2023-02-05.md",
+    "日记/2023-02-07.md",
     "日记/2022-11-09-B加树.md",
-    "z_技术点/B+Tree.md",
-    "z_技术点/().md",
-    "z_技术点/布隆过滤器.md",
-    "日记/2022-12-26-电商总结.md",
-    "日记/2023-02-03-ldz总结.md"
+    "日记/2022-11-08-MySQL8高级.md",
+    "日记/2022-12-11.md",
+    "日记/2022-12-10.md",
+    "面试题/公司面试题.md",
+    "面试题/我的面试题.md",
+    "资料书/代码整洁之道.pdf",
+    "日记/2023-01-11-面试题(准备).md"
   ]
 }
