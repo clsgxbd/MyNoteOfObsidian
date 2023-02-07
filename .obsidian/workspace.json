@@ -39,6 +39,19 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "日记/2023-01-11-面试题(准备).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "344c35807c7b9a4a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "日记/2023-02-07.md",
                 "mode": "source",
                 "backlinks": true,
@@ -47,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -175,12 +188,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "5e7bfbb09d5d0ad6",
+  "active": "344c35807c7b9a4a",
   "lastOpenFiles": [
-    "日记/2023-02-06.md",
-    "日记/2023-02-07.md",
-    "日记/2023-02-05.md",
     "日记/2023-01-11-面试题(准备).md",
+    "日记/2023-02-07.md",
+    "日记/2023-02-06.md",
+    "日记/2023-02-05.md",
     "日记/2022-11-09-B加树.md",
     "z_技术点/B+Tree.md",
     "z_技术点/().md",
