@@ -23,7 +23,7 @@
 选中项目 点击VCS create Git Reponsitory 新建git仓库 项目中的文件会变颜色
 右键项目 Git - add 放到暂存区  `取消: git reset`
 右键项目 Git - repository 设置远程仓库地址
-右键项目 Git -  commit 描述提交信息 `取消: git reset --soft HEAD^`
+右键项目 Git - commit 描述提交信息 `取消: git reset --soft HEAD^`
 右键项目 Git - push
 推送成功
 
