@@ -60,6 +60,11 @@
       "id": "editor:toggle-bullet-list",
       "name": "无序列表",
       "icon": "lucide-list"
+    },
+    {
+      "id": "editor:cycle-list-checklist",
+      "name": "切换列表/待办事项",
+      "icon": "lucide-check-square"
     }
   ],
   "appendMethod": "workspace",
