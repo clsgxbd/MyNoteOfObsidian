@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日记/2022-11-09-B加树.md",
+                "file": "日记/2023-02-08.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z_技术点/Git.md",
+                "file": "日记/2023-02-08.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z_技术点/Git.md"
+                "file": "日记/2023-02-08.md"
               }
             }
           },
@@ -164,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z_技术点/Git.md",
+                "file": "日记/2023-02-08.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,17 +188,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "344c35807c7b9a4a",
+  "active": "54b72c9432569872",
   "lastOpenFiles": [
-    "日记/2023-01-11-面试题(准备).md",
-    "z_技术点/Git.md",
     "日记/2023-02-07.md",
-    "日记/2023-02-06.md",
+    "日记/2023-02-08.md",
     "日记/2022-11-09-B加树.md",
+    "z_技术点/Git.md",
+    "日记/2023-01-11-面试题(准备).md",
+    "日记/2023-02-06.md",
     "日记/2022-11-08-MySQL8高级.md",
     "日记/2022-12-11.md",
     "日记/2022-12-10.md",
-    "面试题/公司面试题.md",
-    "面试题/我的面试题.md"
+    "面试题/公司面试题.md"
   ]
 }
