@@ -708,7 +708,7 @@ Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
 MinorGC垃圾回收的过程如下：
 
 1. eden、From 复制到 To，年龄+1 
-   首先，当Eden区满的时候会触发第一次GC,把还活着的对象拷贝到Survivor From区，当Eden区再次触发GC的时候会扫描Eden区和From区域，对这两个区域进行垃圾回收，经过这次回收后还存活的对象，则直接复制到To区域（如果有对象的年龄已经达到了老年的标准，则赋值到老年代区），同时把这些对象的年龄+1
+   首先，当Eden区满的时候会触发第一次GC,把还活着的对象拷贝到Survivor From区，当Eden区再次触发GC的时候会扫描Eden区和From区域，对这两个区域进行垃圾回收，经过这次回收后还存活的对象，则直接复制到To区域（如果有对象的年龄已经达到了老年的标准，则复制到老年代区），同时把这些对象的年龄+1
 
 2. 清空 eden、Survivor From 
    然后，清空Eden和From中的对象
