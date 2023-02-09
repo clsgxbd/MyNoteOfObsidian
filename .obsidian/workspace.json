@@ -38,22 +38,7 @@
             }
           },
           {
-            "id": "4ebee5a05c7fe868",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "复习笔记/JavaEE_JVM.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "04ca285d0a831769",
+            "id": "727b26aba34b1ff5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -66,7 +51,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -132,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日记/2023-02-08.md",
+                "file": "复习笔记/JavaEE_JUC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日记/2023-02-08.md"
+                "file": "复习笔记/JavaEE_JUC.md"
               }
             }
           },
@@ -170,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日记/2023-02-08.md",
+                "file": "复习笔记/JavaEE_JUC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,11 +178,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ba7b2845fd02face",
+  "active": "727b26aba34b1ff5",
   "lastOpenFiles": [
     "复习笔记/JavaEE_JVM.md",
-    "复习笔记/JavaEE_JUC.md",
     "日记/2023-02-08.md",
+    "复习笔记/JavaEE_JUC.md",
     "z_技术点/IDEA.md",
     "日记/2023-01-11-面试题(准备).md",
     "z_技术点/Git.md",
