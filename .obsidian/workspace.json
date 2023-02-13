@@ -37,7 +37,8 @@
               "pinned": true
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -103,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日记/2023-01-11-面试题(准备).md",
+                "file": "日记/2023-02-08.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日记/2023-01-11-面试题(准备).md"
+                "file": "日记/2023-02-08.md"
               }
             }
           },
@@ -141,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日记/2023-01-11-面试题(准备).md",
+                "file": "日记/2023-02-08.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,17 +166,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "29d29f28fcec7316",
+  "active": "ba7b2845fd02face",
   "lastOpenFiles": [
-    "日记/2023-02-08.md",
+    "日记/2023-02-13.md",
     "日记/2023-01-11-面试题(准备).md",
+    "日记/2023-02-08.md",
     "日记/2023-02-11.md",
     "日记/2023-02-10.md",
     "复习笔记/JavaEE_JUC.md",
     "复习笔记/JavaEE_JVM.md",
     "日记/2023-02-09.md",
     "复习笔记/MySQL8高级-架构和优化.md",
-    "z_技术点/docker.md",
-    "z_技术点/IDEA.md"
+    "z_技术点/docker.md"
   ]
 }
