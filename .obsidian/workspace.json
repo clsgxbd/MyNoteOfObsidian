@@ -51,7 +51,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日记/2023-02-13.md",
+                "file": "日记/2023-02-08.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日记/2023-02-13.md"
+                "file": "日记/2023-02-08.md"
               }
             }
           },
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日记/2023-02-13.md",
+                "file": "日记/2023-02-08.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,10 +179,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d34cf31f1a34f34e",
+  "active": "ba7b2845fd02face",
   "lastOpenFiles": [
-    "日记/2023-02-08.md",
     "日记/2023-02-13.md",
+    "日记/2023-02-08.md",
     "日记/2023-01-11-面试题(准备).md",
     "日记/2023-02-11.md",
     "日记/2023-02-10.md",
