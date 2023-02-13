@@ -36,9 +36,22 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "d34cf31f1a34f34e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "日记/2023-02-13.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -104,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日记/2023-02-08.md",
+                "file": "日记/2023-02-13.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日记/2023-02-08.md"
+                "file": "日记/2023-02-13.md"
               }
             }
           },
@@ -142,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日记/2023-02-08.md",
+                "file": "日记/2023-02-13.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,11 +179,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ba7b2845fd02face",
+  "active": "d34cf31f1a34f34e",
   "lastOpenFiles": [
+    "日记/2023-02-08.md",
     "日记/2023-02-13.md",
     "日记/2023-01-11-面试题(准备).md",
-    "日记/2023-02-08.md",
     "日记/2023-02-11.md",
     "日记/2023-02-10.md",
     "复习笔记/JavaEE_JUC.md",
