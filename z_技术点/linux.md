@@ -12,3 +12,4 @@ systemctl restart mysqld
 systemctl status mysqld
 ```
 
+[rpm命令](rpm命令.md)

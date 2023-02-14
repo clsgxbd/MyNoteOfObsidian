@@ -4,3 +4,4 @@
 
 rpm 卸载命令
 	rpm -e -nodeps 应用全名
+
