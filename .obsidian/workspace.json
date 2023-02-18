@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z_技术点/docker.md",
+                "file": "日记/2023-02-18.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z_技术点/docker.md",
+                "file": "日记/2023-02-18.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z_技术点/docker.md"
+                "file": "日记/2023-02-18.md"
               }
             }
           },
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z_技术点/docker.md",
+                "file": "日记/2023-02-18.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,6 +166,7 @@
   },
   "active": "d54b99af56053682",
   "lastOpenFiles": [
+    "z_技术点/docker.md",
     "日记/2023-02-03-ldz总结.md",
     "日记/2023-01-31-公司笔试题.md",
     "日记/2023-02-04-我的总结.md",
@@ -174,7 +175,6 @@
     "z_技术点/线程池.md",
     "日记/2023-01-11-面试题(准备).md",
     "z_技术点/CompletableFuture 异步编排.md",
-    "日记/2023-02-16.md",
-    "面试题/公司面试题.md"
+    "日记/2023-02-16.md"
   ]
 }
