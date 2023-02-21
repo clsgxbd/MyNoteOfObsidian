@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日记/2023-02-22.md",
+                "file": "z_技术点/docker.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日记/2023-02-06.md",
+                "file": "z_技术点/docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日记/2023-02-06.md"
+                "file": "z_技术点/docker.md"
               }
             }
           },
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日记/2023-02-06.md",
+                "file": "z_技术点/docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,6 +166,8 @@
   },
   "active": "d54b99af56053682",
   "lastOpenFiles": [
+    "日记/2023-02-22.md",
+    "日记/2023-02-06.md",
     "单词/JavaWeb单词.md",
     "日记/2022-11-09-B加树.md",
     "日记/2022-11-08-MySQL8高级.md",
@@ -173,8 +175,6 @@
     "日记/2022-11-12-SQL性能指标.md",
     "日记/2022-11-14-ShardingSphere.md",
     "日记/2023-01-29-应届生求职渠道.md",
-    "日记/2023-01-11-面试题(准备).md",
-    "日记/2023-01-05-公司面试题.md",
-    "单词/MySQL单词.md"
+    "日记/2023-01-11-面试题(准备).md"
   ]
 }
