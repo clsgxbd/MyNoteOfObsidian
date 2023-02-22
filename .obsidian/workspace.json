@@ -28,10 +28,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日记/2023-02-23.md",
+                "file": "z_技术点/docker.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "8246b23c88e2e0ca",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.15"
               }
             }
           }
@@ -102,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日记/2023-02-23.md",
+                "file": "z_技术点/docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日记/2023-02-23.md"
+                "file": "z_技术点/docker.md"
               }
             }
           },
@@ -140,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日记/2023-02-23.md",
+                "file": "z_技术点/docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,9 +166,9 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "canvas:新建白板": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
-      "canvas:Create new canvas": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false
@@ -166,6 +176,7 @@
   },
   "active": "6e5745480d6ebfbb",
   "lastOpenFiles": [
+    "日记/2023-02-23.md",
     "日记/2023-02-22.md",
     "资料书/Thymeleaf.pdf",
     "z_技术点/Nginx.md",
@@ -174,7 +185,6 @@
     "日记/2023-02-06.md",
     "单词/JavaWeb单词.md",
     "日记/2022-11-09-B加树.md",
-    "日记/2022-11-08-MySQL8高级.md",
-    "日记/2022-11-10-面试题.md"
+    "日记/2022-11-08-MySQL8高级.md"
   ]
 }
