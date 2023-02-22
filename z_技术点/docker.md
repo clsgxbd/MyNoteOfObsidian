@@ -10,7 +10,93 @@
 
 ## docker 常用命令总结
 
-### 安装docker
+### 安装与卸载docker
+1.    官网中文安装参考手册
+[https://docs.docker.com/install/linux/docker-ce/centos/](https://docs.docker.com/install/linux/docker-ce/centos/)
+
+2.    确定你是CentOS7及以上版本
+cat /etc/redhat-release
+
+3.    yum安装gcc相关
+o    CentOS7能上外网
+o    检查gcc和g++是否安装好，如果没有安装好，则需要安装。
+o    安装gcc和g++
+yum -y install gcc
+yum -y install gcc-c++
+
+4.    安装需要的软件包
+yum install -y yum-utils device-mapper-persistent-data lvm2
+
+5.    设置镜像仓库
+o    推荐：阿里云服务器
+yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
+
+6.    更新yum软件包索引
+yum makecache fast
+
+7.    安装DOCKER CE（社区版）（DOCKER EE企业版收费）
+yum -y install docker-ce
+
+8.    启动docker
+o    手动启动：systemctl start docker
+o    自动启动：systemctl enable docker 
+
+9.    测试
+o    检查版本：docker version
+o    下载并运行HelloWorld：docker run hello-world
+·         如果下载不下来，可以配置镜像加速器
+·         输出这段提示以后，hello world就会停止运行，容器自动终止。
+
+10. 配置镜像加速CentOS7版本
+mkdir -p /etc/docker
+vim  /etc/docker/daemon.json
+·         **#****网易云**
+```
+{
+"registry-mirrors": ["http://hub-mirror.c.163.com"]
+}
+```
+
+·         **#****阿里云(推荐)**
+```
+{
+"registry-mirrors": ["https://8y2y8njn.mirror.aliyuncs.com"]
+}
+```
+
+·         **#ustc**
+#是老牌的linux镜像服务提供者了，还在遥远的ubuntu 5.04版本的时候就在用。ustc的docker镜像加速器速度很快。
+#ustc docker mirror的优势之一就是不需要注册，是真正的公共服务。
+#[https://lug.ustc.edu.cn/wiki/mirrors/help/docker](https://lug.ustc.edu.cn/wiki/mirrors/help/docker)
+在该文件中输入如下内容：
+```
+{  
+"registry-mirrors": ["https://docker.mirrors.ustc.edu.cn"]  
+}
+```
+systemctl daemon-reload
+systemctl restart docker
+
+11. 卸载
+
+o    systemctl stop docker
+o    yum -y remove docker-ce
+o    rm -rf /var/lib/docker
+o    卸载旧版本
+o    2019.11英文官网版本
+·         最新的英文版：https://docs.docker.com/install/linux/docker-ce/centos/#uninstall-old-versions
+```
+yum remove docker \
+		docker-client \
+		docker-client-latest \
+		docker-common \
+		docker-latest \
+		docker-latest-logrotate \
+		docker-logrotate \
+		docker-engine
+```
+
+
 
 
 ### 操作 docker
