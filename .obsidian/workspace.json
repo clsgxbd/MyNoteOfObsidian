@@ -26,12 +26,9 @@
             "id": "6e5745480d6ebfbb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "z_技术点/Nginx.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "资料书/Thymeleaf.pdf"
               }
             }
           }
@@ -102,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z_技术点/Nginx.md",
+                "file": "资料书/Thymeleaf.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z_技术点/Nginx.md"
+                "file": "资料书/Thymeleaf.pdf"
               }
             }
           },
@@ -140,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z_技术点/Nginx.md",
+                "file": "资料书/Thymeleaf.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,9 +163,9 @@
   },
   "active": "6e5745480d6ebfbb",
   "lastOpenFiles": [
+    "z_技术点/Nginx.md",
     "日记/2023-01-11-面试题(准备).md",
     "z_技术点/docker.md",
-    "z_技术点/Nginx.md",
     "日记/2023-02-22.md",
     "日记/2023-02-06.md",
     "单词/JavaWeb单词.md",
