@@ -10,17 +10,33 @@
           {
             "id": "503802a3db5388ef",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日记/2023-02-23.md",
+                "file": "z_技术点/图片验证码.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "90a27786388afc9b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "日记/2023-02-23-面试表.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日记/2023-02-23.md",
+                "file": "日记/2023-02-23-面试表.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日记/2023-02-23.md"
+                "file": "日记/2023-02-23-面试表.md"
               }
             }
           },
@@ -124,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日记/2023-02-23.md",
+                "file": "日记/2023-02-23-面试表.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,14 +164,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "503802a3db5388ef",
+  "active": "90a27786388afc9b",
   "lastOpenFiles": [
     "日记/2023-02-23-三年.md",
-    "日记/2023-02-23.md",
-    "日记/2023-02-22.md",
+    "日记/2023-02-23-面试表.md",
     "日记/2023-02-20.md",
-    "日记/2023-02-08.md",
+    "日记/2023-02-22.md",
+    "z_技术点/图片验证码.md",
     "日记/2023-02-07.md",
+    "日记/2023-02-08.md",
     "日记/2023-02-06.md",
     "未命名.canvas",
     "日记/2023-01-11-面试题(准备).md",
