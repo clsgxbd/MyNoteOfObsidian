@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z_技术点/docker.md",
+                "file": "日记/2023-02-23.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -96,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "right": {
     "id": "62a7561fbca6f5c2",
@@ -112,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z_技术点/docker.md",
+                "file": "日记/2023-02-23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z_技术点/docker.md"
+                "file": "日记/2023-02-23.md"
               }
             }
           },
@@ -150,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z_技术点/docker.md",
+                "file": "日记/2023-02-23.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
