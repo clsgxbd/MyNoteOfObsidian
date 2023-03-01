@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日记/2023-02-23-面试者计划.md",
+                "file": "日记/2023-03-01.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日记/2023-02-23-面试者计划.md",
+                "file": "日记/2023-03-01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日记/2023-02-23-面试者计划.md"
+                "file": "日记/2023-03-01.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日记/2023-02-23-面试者计划.md",
+                "file": "日记/2023-03-01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,8 +150,9 @@
   },
   "active": "90a27786388afc9b",
   "lastOpenFiles": [
-    "日记/2023-02-27.md",
     "日记/2023-02-23-面试者计划.md",
+    "日记/2023-03-01.md",
+    "日记/2023-02-27.md",
     "日记/2023-02-23-3三年.md",
     "日记/2023-02-24.md",
     "日记/2023-02-25.md",
@@ -176,7 +177,6 @@
     "z_技术点/Nginx.md",
     "z_技术点/docker.md",
     "单词/JavaWeb单词.md",
-    "日记/2022-11-09-B加树.md",
-    "日记/2022-11-08-MySQL8高级.md"
+    "日记/2022-11-09-B加树.md"
   ]
 }
