@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日记/2023-03-02.md",
+                "file": "z_技术点/mac技能.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日记/2023-03-02.md",
+                "file": "z_技术点/mac技能.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日记/2023-03-02.md"
+                "file": "z_技术点/mac技能.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日记/2023-03-02.md",
+                "file": "z_技术点/mac技能.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,16 +150,19 @@
   },
   "active": "90a27786388afc9b",
   "lastOpenFiles": [
+    "z_技术点/image/Pasted image 20230302133320.png",
+    "z_技术点/image/Pasted image 20230302133228.png",
     "日记/2023-03-02.md",
-    "日记/2023-02-04-我的总结.md",
-    "日记/2023-02-07.md",
-    "日记/2023-02-08.md",
-    "日记/2023-02-20-0应届.md",
-    "日记/2023-02-23-3三年.md",
+    "z_技术点/mac技能.md",
     "日记/2023-02-23-面试者计划.md",
+    "日记/2023-02-20-0应届.md",
+    "日记/2023-02-08.md",
+    "日记/2023-02-07.md",
     "日记/2023-02-06.md",
     "日记/2023-02-03-ldz总结.md",
     "日记/2023-02-02-工作流程.md",
+    "日记/2023-02-04-我的总结.md",
+    "日记/2023-02-23-3三年.md",
     "日记/2023-02-01-大厂面试题.md",
     "日记/2023-01-31-公司笔试题.md",
     "日记/2023-01-29-应届生求职渠道.md",
@@ -175,8 +178,6 @@
     "日记/2023-02-22.md",
     "未命名.canvas",
     "资料书/Thymeleaf.pdf",
-    "z_技术点/Nginx.md",
-    "z_技术点/docker.md",
-    "单词/JavaWeb单词.md"
+    "z_技术点/Nginx.md"
   ]
 }
