@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "658ae82ddf1347fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "日记/2023-03-05.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z_技术点/mac技能.md",
+                "file": "日记/2023-03-05.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z_技术点/mac技能.md"
+                "file": "日记/2023-03-05.md"
               }
             }
           },
@@ -124,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z_技术点/mac技能.md",
+                "file": "日记/2023-03-05.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,8 +162,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "90a27786388afc9b",
+  "active": "658ae82ddf1347fc",
   "lastOpenFiles": [
+    "日记/2023-03-05.md",
     "z_技术点/image/Pasted image 20230302133320.png",
     "z_技术点/image/Pasted image 20230302133228.png",
     "日记/2023-03-02.md",
