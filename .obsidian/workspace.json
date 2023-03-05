@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日记/2023-03-05.md",
+                "file": "z_技术点/Git.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日记/2023-03-05.md",
+                "file": "z_技术点/Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日记/2023-03-05.md"
+                "file": "z_技术点/Git.md"
               }
             }
           },
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日记/2023-03-05.md",
+                "file": "z_技术点/Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,8 +163,8 @@
   },
   "active": "90a27786388afc9b",
   "lastOpenFiles": [
-    "资料书.zip",
     "日记/2023-03-05.md",
+    "资料书.zip",
     "单词/Maven+SSM单词.md",
     "z_技术点/maven.md",
     "z_技术点/image/Pasted image 20230302133320.png",
