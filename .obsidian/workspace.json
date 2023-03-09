@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日记/2023-03-09.md",
+                "file": "夕航/日记/2023-03-09.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日记/2023-03-09.md",
+                "file": "夕航/日记/2023-03-09.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日记/2023-03-09.md",
+                "file": "夕航/日记/2023-03-09.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日记/2023-03-09.md"
+                "file": "夕航/日记/2023-03-09.md"
               }
             }
           }
@@ -149,23 +149,24 @@
   },
   "active": "9b91d238132ea76e",
   "lastOpenFiles": [
+    "日记/2023-03-09.md",
+    "夕航/日记/2023-03-09.md",
     "夕航/文档/账号.md",
     "夕航/操作/跳板机.md",
-    "日记/2023-03-09.md",
-    "日记/2023-03-02-入职.md",
-    "日记/2023-03-03.md",
-    "日记/2023-03-05.md",
-    "日记/2023-03-06.md",
-    "日记/2023-03-07.md",
-    "日记/2023-03-08.md",
+    "夕航/日记/2023-03-02-入职.md",
+    "夕航/日记/2023-03-03.md",
+    "夕航/日记/2023-03-05.md",
+    "夕航/日记/2023-03-06.md",
+    "夕航/日记/2023-03-07.md",
+    "夕航/日记/2023-03-08.md",
     "夕航/操作/查看运行日志.md",
     "夕航/操作/查看数据库.md",
     "夕航/文档/开发流程.md",
     "conflict-files-obsidian-git.md",
     "z_技术点/Git.md",
     "夕航/周报/大木周报2023.md",
-    "日记/image/Pasted image 20230309150848.png",
-    "日记/image",
+    "夕航/日记/image/Pasted image 20230309150848.png",
+    "夕航/日记/image",
     "单词/MySQL单词.md",
     "单词/Maven+SSM单词.md",
     "单词/JavaWeb单词.md",
@@ -179,9 +180,8 @@
     "z_技术点/IDEA.md",
     "夕航",
     "待整理/2022-11-08-MySQL8高级.md",
-    "日记",
+    "夕航/日记",
     "周报&OKR/damu",
-    "夕航/周报",
-    "z_技术点/Shell.md"
+    "夕航/周报"
   ]
 }
