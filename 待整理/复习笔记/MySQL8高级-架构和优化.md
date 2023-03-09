@@ -948,7 +948,7 @@ REVOKE ALL PRIVILEGES ON *.* FROM 'tian7'@'%'; -- 再收回tian7的所有权限
 
 # 第03章 逻辑架构
 
-[MySQL逻辑架构](../z_技术点/MySQL逻辑架构.md)
+[MySQL逻辑架构](../../z_技术点/MySQL逻辑架构.md)
 ## 1、逻辑架构剖析
 
 ### 1.1、服务器处理客户端请求
@@ -957,7 +957,7 @@ REVOKE ALL PRIVILEGES ON *.* FROM 'tian7'@'%'; -- 再收回tian7的所有权限
 
 ![b7a8eb46-1168-434c-b63b-ec775affab7b](image/MySQL8高级-架构和优化/b7a8eb46-1168-434c-b63b-ec775affab7b.jpg)
 
-![](image/Mysql逻辑架构.png)
+![](../image/Mysql逻辑架构.png)
 
 
 

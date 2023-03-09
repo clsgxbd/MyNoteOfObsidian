@@ -1,7 +1,7 @@
 #MySQl主从同步原理
 
 
-![img](image/MySQL8高级-ShardingSphere5/image-20220714133617856.png)
+![img](../待整理/复习笔记/image/MySQL8高级-ShardingSphere5/image-20220714133617856.png)
 **基本原理：**
 
 slave会从master读取binlog来进行数据同步

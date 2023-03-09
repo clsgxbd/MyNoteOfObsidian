@@ -21,7 +21,7 @@ docker rm 容器ID/容器名称 容器ID/容器名称;
 
 服务器规划：使用`docker`方式创建，`主从服务器IP一致，端口号不一致`
 
-![image-20220807183231101](image/MySQL8高级-ShardingSphere5/image-20220807183231101.png)
+![image-20220807183231101](../待整理/复习笔记/image/MySQL8高级-ShardingSphere5/image-20220807183231101.png)
 
 - 主服务器：容器名`atguigu-mysql-master`，端口`3306`  **注意：将以前RPM安装Mysql服务停止**
 - 从服务器：容器名`atguigu-mysql-slave1`，端口`3307`
@@ -99,7 +99,7 @@ docker restart atguigu-mysql-master
 
 `binlog-ignore-db和binlog-do-db的优先级问题：`
 
-![img](image/MySQL8高级-ShardingSphere5/0.08703112216569037.png)
+![img](../待整理/复习笔记/image/MySQL8高级-ShardingSphere5/0.08703112216569037.png)
 
 
 
@@ -143,7 +143,7 @@ SHOW MASTER STATUS;
 
 记下`File`和`Position`的值。执行完此步骤后不要再操作主服务器MYSQL，防止主服务器状态值变化。
 
-![image-20220804191852164](image/MySQL8高级-ShardingSphere5/image-20220804191852164.png)
+![image-20220804191852164](../待整理/复习笔记/image/MySQL8高级-ShardingSphere5/image-20220804191852164.png)
 
 
 
@@ -228,7 +228,7 @@ SHOW SLAVE STATUS\G
 
 **两个关键进程：**下面两个参数都是Yes，则说明主从配置成功！
 
-![img](image/MySQL8高级-ShardingSphere5/image-20220715000533951.png)
+![img](../待整理/复习笔记/image/MySQL8高级-ShardingSphere5/image-20220715000533951.png)
 
 
 
@@ -274,7 +274,7 @@ reset master;
 
 启动主从同步后，常见错误是`Slave_IO_Running： No 或者 Connecting` 的情况，此时查看下方的 `Last_IO_ERROR`错误日志，根据日志中显示的错误信息在网上搜索解决方案即可
 
-![img](image/MySQL8高级-ShardingSphere5/image-20220714235426120.png)
+![img](../待整理/复习笔记/image/MySQL8高级-ShardingSphere5/image-20220714235426120.png)
 
 
 
@@ -301,7 +301,7 @@ SHOW MASTER STATUS;
 
 启动docker容器后提示 `WARNING: IPv4 forwarding is disabled. Networking will not work.`
 
-![img](image/MySQL8高级-ShardingSphere5/image-20220715004850504.png)
+![img](../待整理/复习笔记/image/MySQL8高级-ShardingSphere5/image-20220715004850504.png)
 
 此错误，虽然不影响主从同步的搭建，但是如果想从远程客户端通过以下方式连接docker中的MySQL则没法连接
 
