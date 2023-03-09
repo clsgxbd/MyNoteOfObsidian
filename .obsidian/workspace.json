@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z_技术点/Kubernetes.md",
+                "file": "夕航/日记/2023-03-10.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z_技术点/Kubernetes.md",
+                "file": "夕航/日记/2023-03-10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z_技术点/Kubernetes.md",
+                "file": "夕航/日记/2023-03-10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z_技术点/Kubernetes.md"
+                "file": "夕航/日记/2023-03-10.md"
               }
             }
           }
@@ -150,10 +150,11 @@
   },
   "active": "9b91d238132ea76e",
   "lastOpenFiles": [
+    "z_技术点/Kubernetes.md",
+    "夕航/日记/2023-03-10.md",
     "z_技术点/image/Pasted image 20230309175014.png",
     "夕航/日记/2023-03-09.md",
     "README.md",
-    "z_技术点/Kubernetes.md",
     "z_技术点/image/Pasted image 20230309173356.png",
     "z_技术点/IDEA.md",
     "夕航/文档/账号.md",
