@@ -4,6 +4,7 @@
 切换桌面->control+左/右；  
 显示隐藏文件夹->command+shift+.  
 最小化->command+H
+切换全屏 -> Command+Control+F
 网易翻译： command+shift+2
 
 mac如何查看文件路径
