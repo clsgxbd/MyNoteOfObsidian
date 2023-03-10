@@ -86,7 +86,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "6cfc7d90b3108d7b",
@@ -173,8 +174,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b8210e9f649080e1",
+  "active": "a903f9ba28726d28",
   "lastOpenFiles": [
+    "夕航/草稿/image/Pasted image 20230310182839.png",
+    "夕航/草稿/image/Pasted image 20230310182326.png",
     "z_技术点/Kubernetes.md",
     "z_技术点/Dubbo.md",
     "夕航/文档/deploy脚本解析.md",
@@ -206,7 +209,6 @@
     "z_技术点/image/Pasted image 20230310102023.png",
     "z_技术点/image/Pasted image 20230310101538.png",
     "z_技术点/image/Pasted image 20230310101448.png",
-    "z_技术点/image/Pasted image 20230310101437.png",
     "模版/周报模版.md",
     "夕航/周报/大木周报2023.md",
     "夕航/周报/本周.md",
