@@ -14,6 +14,8 @@
 交换逻辑表达式左右值: `cmd + alt + shift + 左右`
 扩展/收缩选区: `Command + W`
 显示方法的参数信息: `Command + P`
+切换多个项目窗口快捷键 <mark>command + shift + `</mark>
+
 
 更多快捷键: http://t.csdn.cn/6U0fk
 
