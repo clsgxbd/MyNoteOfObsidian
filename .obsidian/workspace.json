@@ -10,6 +10,7 @@
           {
             "id": "346a56678d694666",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -17,7 +18,8 @@
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ]
@@ -49,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "todo",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -158,12 +160,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "346a56678d694666",
+  "active": "b8210e9f649080e1",
   "lastOpenFiles": [
+    "夕航/日记/2023-03-10.md",
+    "夕航/草稿/需求-优化禁言.md",
     "夕航/草稿/image/Pasted image 20230310144701.png",
     "夕航/草稿/image/Pasted image 20230310144418.png",
     "夕航/草稿/image",
-    "夕航/草稿/需求-优化禁言.md",
     "夕航/草稿",
     "z_技术点/Kubernetes.md",
     "z_技术点/Dubbo.md",
@@ -180,7 +183,6 @@
     "z_技术点/AOP.md",
     "模版/技术点模版.md",
     "z_技术点/Obsidian.md",
-    "夕航/日记/2023-03-10.md",
     "夕航/操作/跳板机.md",
     "夕航/操作/查看运行日志.md",
     "夕航/操作/查看数据库.md",
@@ -192,7 +194,6 @@
     "z_技术点/image/Pasted image 20230310101538.png",
     "z_技术点/image/Pasted image 20230310101448.png",
     "z_技术点/image/Pasted image 20230310101437.png",
-    "z_技术点/image/Pasted image 20230310101304.png",
     "模版/周报模版.md",
     "夕航/周报/大木周报2023.md",
     "夕航/周报/本周.md",
