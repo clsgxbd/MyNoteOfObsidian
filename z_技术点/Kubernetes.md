@@ -350,7 +350,7 @@ scp -r HOME/.kube node1:HOME/
 
 
 ## 实战入门
-#todo
+#todo kubernetes实战
 ## 高级用法
 
 
