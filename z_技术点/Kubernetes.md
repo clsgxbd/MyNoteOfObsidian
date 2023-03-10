@@ -230,25 +230,91 @@ deployment.apps/pod created
 
 # 查看新创建的pod
 [root@master ~]# kubectl get pod -n dev
-NAME READY STATUS  RESTARTS AGE 
-pod  1/1   Running 0        21s
+NAME        READY   STATUS    RESTARTS   AGE 
+my-pod-0    1/1     Running   0          10m
+my-pod-1    1/1     Running   0          1m
+my-pod-2    1/1     Running   0          40s
+my-pod-3    1/1     Running   0          21s
 
-#删除置顶的pod
-[root@master ~]# kubectl delete pod pod-864f9875b9-pcw7x
+# 删除置顶的pod
+[root@master ~]# kubectl delete pod my-pod-0
+pod "pod" deleted
 
+# 删除命名空间线的所有pod
+[root@master ~]# kubectl delete pod --all -n dev
+pod "my-pod-1" deleted 
+pod "my-pod-2" deleted 
+pod "my-pod-3" deleted
 
+# 删除指定的namespace
+[root@master ~]# kubectl delete ns dev
+namespace "dev" delete
 
 ```
 
 
 
-
-
-
-
-
-
 #### 命令式对象配置
+命令式对象配置就是使用命令配合配置文件一起来操作kubernetes资源
+1. 创建一个nginxpod.yaml, 内容如下:
+
+```shell
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: dev
+
+---
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginxpod
+  namespace: dev
+spec:
+  containers:
+  - name: nginx-containers
+    image: nginx:latest
+```
+
+
+2. 执行create命令, 创建资源: 
+   
+```shell
+[root@master ~]# kubectl create -f nginxpod.yaml
+namespace/dev created
+pod/nginxpod created
+```
+
+此时发现创建了两个资源对象, 分别是namespace和pod
+
+3. 执行get命令,查看资源
+   
+```shell‘
+# 从一个或多个 Kubernetes 配置文件中获取 Kubernetes 资源的当前状态
+[root@master ~]# kubectl get -f nginxpod.yaml
+NAME            STATUS   AGE
+namespace/dev   Active   18s
+
+NAME            READY   STATUS    RESTARTS   AGE
+pod/nginxpod    1/1     Running   0          17s
+```
+
+这样就显示了两个资源对象的信息
+
+4. 执行delete命令，删除资源：
+   
+```shell
+[root@master ~]# kubectl delete -f nginxpod.yaml
+namespace "dev" deleted 
+pod "nginxpod" deleted
+```
+
+此时发现两个资源对象被删除了
+
+##### 总结:
+    命令式对象配置的方式操作资源，可以简单的认为：命令  +  yaml配置文件（里面是命令需要的各种参数）
+
 
 #### 声明式对象配置
 
