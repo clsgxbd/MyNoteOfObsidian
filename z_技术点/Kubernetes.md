@@ -1,4 +1,9 @@
+# Kubernetes
 #Kubernetes 
+
+官网: https://kubernetes.io/zh-cn/
+
+核心: 学习kubernetes的核心，就是学习如何对集群上的`Pod、Pod控制器、Service、存储`等各种资源进行操作
 
 ## 概念
 kubernetes，是一个全新的基于容器技术的分布式架构领先方案，是谷歌严格保密十几年的秘密武器----Borg系统的一个开源版本，于2014年9月发布第一个版本，2015年7月发布第一个正式版本。
@@ -11,6 +16,7 @@ kubernetes的本质是一组服务器集群，它可以在集群的每个节点�
 负载均衡：如果一个服务起动了多个容器，能够自动实现请求的负载均衡
 版本回退：如果发现新发布的程序版本有问题，可以立即回退到原来的版本
 存储编排：可以根据容器自身的需求自动创建存储卷
+
 
 ## kubernetes组件
 一个kubernetes集群主要是由`控制节点(master)`、`工作节点(node)`构成，每个节点上都会安装不同的组件。
@@ -47,7 +53,7 @@ Docker : 负责节点上容器的各种操作
 这样，外界用户就可以访问集群中的nginx服务了
 
 
-## 名词概念概念
+## 名词概念
 Master：集群控制节点，每个集群需要至少一个master节点负责集群的管控
 Node：工作负载节点，由master分配容器到这些node工作节点上，然后node节点上的docker负责容器的运行
 Pod：kubernetes的最小控制单元，容器都是运行在pod中的，一个pod中可以有1个或者多个容器
@@ -58,38 +64,60 @@ NameSpace：命名空间，用来隔离pod的运行环境
 
 
 
-# 技术名称
-#标签
-
-官网: http:// ...
-
-## 概念
 
 
-## 组件
+## 常用命令
+
+```
+#后台部署命令
+#也可用于更新原先的部署的应用,无缝衔接
+kubectl apply -f deployment.yaml
+```
+![](image/Pasted%20image%2020230310101448.png)
 
 
-## 名词概念
+```
+#查看pod的运行状态
+kubectl get pods [ | grep ... ]
+```
+![](image/Pasted%20image%2020230310101437.png)
 
 
-## 基本操作/常用命令
+```
+#查看所有创建的服务
+kubectl get services
+```
+![](image/Pasted%20image%2020230310101538.png)
 
 
-## 简单使用
+```
+#从集群上移除应用
+kubectl delete -f deployment.yaml
+```
+![](image/Pasted%20image%2020230310102026.png)
 
 
+## 资源管理基本操作
+### 资源管理介绍
+在kubernetes中，所有的内容都抽象为资源，用户需要通过操作资源来管理kubernetes。
+- kubernetes的本质上就是一个集群系统，用户可以在集群中部署各种服务，所谓的部署服务，其实就是在kubernetes集群中运行一个个的容器，并将指定的程序跑在容器中。
+- kubernetes的最小管理单元是pod而不是容器，所以只能将容器放在Pod中，而kubernetes一般也不会直接管理Pod，而是通过Pod控制器来管理Pod的。
+- Pod可以提供服务之后，就要考虑如何访问Pod中服务，kubernetes提供了Service资源实现这个功能。
+- 当然，如果Pod中程序的数据需要持久化，kubernetes还提供了各种存储系统。
+
+
+
+
+
+
+
+## 实战入门
+#todo
 ## 高级用法
 
 
 ## 学习参考文档
 
+[Kubernetes (k8s) 10分钟快速入门](https://www.bilibili.com/video/BV1DL4y187cL/?share_source=copy_web&vd_source=f2fa7181cec391d8d313fc7ffb8e1302)
 
-
-
-
-
-
-
-
-
-学习链接: http://t.csdn.cn/y39YE
+http://t.csdn.cn/y39YE
