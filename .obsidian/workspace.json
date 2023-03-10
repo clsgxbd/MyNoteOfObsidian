@@ -21,19 +21,6 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "df38dc0c43db7521",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "夕航/操作/查看运行日志.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ]
       }
@@ -64,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#todo",
+                "query": "todo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,8 +72,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "6cfc7d90b3108d7b",
@@ -173,26 +159,27 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9442c1a5ce5030af",
+  "active": "5a7b63c87e0992bc",
   "lastOpenFiles": [
-    "夕航/操作/查看运行日志.md",
+    "夕航/文档/deploy脚本解析.md",
+    "z_技术点/Kubernetes.md",
+    "z_技术点/AOP.md",
+    "模版/技术点模版.md",
+    "z_技术点/Dubbo.md",
+    "z_技术点/Obsidian.md",
+    "夕航/日记/2023-03-10.md",
     "夕航/操作/跳板机.md",
+    "夕航/操作/查看运行日志.md",
     "夕航/操作/查看数据库.md",
     "夕航/文档/账号.md",
     "夕航/文档/开发流程.md",
-    "夕航/文档/deploy脚本解析.md",
-    "z_技术点/Kubernetes.md",
-    "z_技术点/Obsidian.md",
     "z_技术点/image/Pasted image 20230310103627.png",
-    "模版/技术点模版.md",
-    "夕航/日记/2023-03-10.md",
     "z_技术点/image/Pasted image 20230310102026.png",
     "z_技术点/image/Pasted image 20230310102023.png",
     "z_技术点/image/Pasted image 20230310101538.png",
     "z_技术点/image/Pasted image 20230310101448.png",
     "z_技术点/image/Pasted image 20230310101437.png",
     "z_技术点/image/Pasted image 20230310101304.png",
-    "z_技术点/Dubbo.md",
     "模版/周报模版.md",
     "夕航/周报/大木周报2023.md",
     "夕航/周报/本周.md",
@@ -213,7 +200,6 @@
     "夕航/日记/image/Pasted image 20230309150848.png",
     "模版",
     "未命名.canvas",
-    "日记/2023-03-09.md",
     "夕航/日记/image",
     "夕航/文档",
     "夕航/操作",
