@@ -21,6 +21,19 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "df38dc0c43db7521",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "夕航/操作/查看运行日志.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -162,8 +175,14 @@
   },
   "active": "5a7b63c87e0992bc",
   "lastOpenFiles": [
-    "z_技术点/Obsidian.md",
+    "夕航/操作/查看运行日志.md",
+    "夕航/操作/跳板机.md",
+    "夕航/操作/查看数据库.md",
+    "夕航/文档/账号.md",
+    "夕航/文档/开发流程.md",
+    "夕航/文档/deploy脚本解析.md",
     "z_技术点/Kubernetes.md",
+    "z_技术点/Obsidian.md",
     "z_技术点/image/Pasted image 20230310103627.png",
     "模版/技术点模版.md",
     "夕航/日记/2023-03-10.md",
@@ -190,17 +209,11 @@
     "README.md",
     "z_技术点/image/Pasted image 20230309173356.png",
     "z_技术点/IDEA.md",
-    "夕航/文档/账号.md",
     "z_技术点/mac技能.md",
     "夕航/日记/image/Pasted image 20230309150848.png",
     "模版",
     "未命名.canvas",
     "日记/2023-03-09.md",
-    "夕航/操作/跳板机.md",
-    "夕航/操作/查看运行日志.md",
-    "夕航/操作/查看数据库.md",
-    "夕航/文档/开发流程.md",
-    "conflict-files-obsidian-git.md",
     "夕航/日记/image",
     "夕航/文档",
     "夕航/操作",

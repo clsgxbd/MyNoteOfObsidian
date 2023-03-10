@@ -185,20 +185,61 @@ kubectl --help
 ```
 
 经常使用的操作有下面这些: 
-| 命令分类   | 命令     | 翻译                    | 命令作用                   |
-| ---------- | -------- | ----------------------- | -------------------------- |
-| 基本命令   | create   | 创建                    | 创建一个资源               |
-|            | edit     | 编辑                    | 编辑一个资源               |
-|            | get      | 获取                    | 获取一个资源               |
-|            | patch    | 更新                    | 更新一个资源               |
-|            | delete   | 删除                    | 删除一个资源               |
-|            | explain  | 解释                    | 展示资源文档               |
-| 运行和调试 | run      | 运行                    | 在集群中运行一个指定的镜像 |
-|            | expose   | 暴露                    | 暴露资源为Service          |
-|            | describe | 描述                    | 显示资源内部信息           |
-|            | logs     | 日志输容器在pod中的日志 | 输出容器在pod中的日志      |
-|            | attach   | 缠绕进入运行中的容器    | 进入运行中的容器           |
-|            | exec     | 执行容器中的一个命令    |                            |
+| 命令分类   | 命令         | 翻译                    | 命令作用                    |
+| ---------- | ------------ | ----------------------- | --------------------------- |
+| 基本命令   | create       | 创建                    | 创建一个资源                |
+|            | edit         | 编辑                    | 编辑一个资源                |
+|            | get          | 获取                    | 获取一个资源                |
+|            | patch        | 更新                    | 更新一个资源                |
+|            | delete       | 删除                    | 删除一个资源                |
+|            | explain      | 解释                    | 展示资源文档                |
+| 运行和调试 | run          | 运行                    | 在集群中运行一个指定的镜像  |
+|            | expose       | 暴露                    | 暴露资源为Service           |
+|            | describe     | 描述                    | 显示资源内部信息            |
+|            | logs         | 日志输容器在pod中的日志 | 输出容器在pod中的日志       |
+|            | attach       | 缠绕进入运行中的容器    | 进入运行中的容器            |
+|            | exec         | 执行容器中的一个命令    | 执行容器中的一个命令        |
+|            | cp           | 复制                    | 在Pod内外复制文件           |
+|            | rollout      | 首次展示                | 管理资源的分布              |
+|            | scale        | 规模                    | 扩(缩)容Pod的数量           |
+|            | autoscale    | 自动调整                | 自动调整Pod的数量           |
+| 高级命令   | apply        | rc                      | 通过文件对资源进行配置      |
+|            | label        | 标签                    | 更新资源上的标签            |
+| 其他命令   | cluster-info | 集群信息                | 显示集群信息                |
+|            | version      | 版本                    | 显示当前Service和Client版本 | 
+
+下面以一个namespace/pod 的创建和删除简单演示下命令的使用:
+
+```shell
+# 创建一个namespace
+[root@master ~]# kubectl create namespace dev
+
+# 获取namespace
+[root@master ~]# kubectl get ns
+NAME              STATUS   AGE
+default           Active   21h
+dev               Active   21s
+kube-node-lease   Active   21h
+kube-public       Active   21h
+kube-system       Active   21h
+
+# 在此namespace 下创建并运行一个nginx的pod
+[root@master ~]# kubectl run pod --image=nginx:latest -n dev
+kubectl run --generator=deployment/apps.v1 is DEPRECATED and will be removed in a future version. Use kubectl run --generator=run-pod/v1 or kubectl create instead.
+deployment.apps/pod created
+
+# 查看新创建的pod
+[root@master ~]# kubectl get pod -n dev
+NAME READY STATUS  RESTARTS AGE 
+pod  1/1   Running 0        21s
+
+#删除置顶的pod
+[root@master ~]# kubectl delete pod pod-864f9875b9-pcw7x
+
+
+
+```
+
 
 
 
