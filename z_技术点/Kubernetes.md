@@ -146,8 +146,59 @@ kubectl get pod pod_name
 kubectl get pod pod_name -o yaml
 ```
 
+##### 资源类型
+kubernetes中所有的内容都抽象为资源, 可以通过下面的命令进行查看:
 
+```
+kubectl api-resources
+```
 
+经常使用的资源有下面这些:
+
+经常使用的资源有下面这些：
+| 资源分类 | 资源名称 | 缩写 | 资源作用 |
+| :-- | :-- | :-- | :-- |
+| 集群级别资源 | nodes | no | 集群组成部分 |
+| namespaces | ns | 隔离Pod |  |
+| pod资源 | pods | po | 装载容器 |
+| pod资源控制器 | replicationcontrollers | rc | 控制pod资源 |
+|  | replicasets | rs | 控制pod资源 |
+|  | deployments | deploy | 控制pod资源 |
+|  | daemonsets | ds | 控制pod资源 |
+|  | jobs |  | 控制pod资源 |
+|  | cronjobs | cj | 控制pod资源 |
+|  | horizontalpodautoscalers | hpa | 控制pod资源 |
+|  | statefulsets | sts | 控制pod资源 |
+| 服务发现资源 | services | svc | 统一pod对外接口 |
+|  | ingress | ing | 统一pod对外接口 |
+| 存储资源 | volumeattachments |  | 存储 |
+|  | persistentvolumes | pv | 存储 |
+|  | persistentvolumeclaims | pvc | 存储 |
+| 配置资源 | configmaps | cm | 配置 |
+|  | secrets |  | 配置 |
+
+##### 操作
+kubernetes允许对资源进行多种操作, 可以通过 --help 查看详细的操作命令
+
+```shell
+kubectl --help
+```
+
+经常使用的操作有下面这些: 
+| 命令分类   | 命令     | 翻译                    | 命令作用                   |
+| ---------- | -------- | ----------------------- | -------------------------- |
+| 基本命令   | create   | 创建                    | 创建一个资源               |
+|            | edit     | 编辑                    | 编辑一个资源               |
+|            | get      | 获取                    | 获取一个资源               |
+|            | patch    | 更新                    | 更新一个资源               |
+|            | delete   | 删除                    | 删除一个资源               |
+|            | explain  | 解释                    | 展示资源文档               |
+| 运行和调试 | run      | 运行                    | 在集群中运行一个指定的镜像 |
+|            | expose   | 暴露                    | 暴露资源为Service          |
+|            | describe | 描述                    | 显示资源内部信息           |
+|            | logs     | 日志输容器在pod中的日志 | 输出容器在pod中的日志      |
+|            | attach   | 缠绕进入运行中的容器    | 进入运行中的容器           |
+|            | exec     | 执行容器中的一个命令    |                            |
 
 
 
