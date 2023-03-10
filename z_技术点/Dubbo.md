@@ -4,7 +4,6 @@
 官网: httpshttps://cn.dubbo.apache.org/zh-cn/://cn.dubbo.apache.org/zh-cn/
 
 核心: 
- [一文帮你快速了解 Dubbo 核心能力](https://cn.dubbo.apache.org/zh-cn/blog/2023/02/23/%E4%B8%80%E6%96%87%E5%B8%AE%E4%BD%A0%E5%BF%AB%E9%80%9F%E4%BA%86%E8%A7%A3-dubbo-%E6%A0%B8%E5%BF%83%E8%83%BD%E5%8A%9B/)
 
 ## 概念
 #todo 
@@ -21,6 +20,11 @@ Apache Dubbo 是一款 RPC 服务开发框架，用于解决微服务架构下�
 ![](image/Pasted%20image%2020230310140106.png)
 
 Dubbo 从架构图上分为数据面和控制面。在数据面，使用 Dubbo 开发的微服务进程间基于 RPC 协议通信。DubboAdmin 控制面作为服务治理的抽象入口，由一系列可选的服务治理组件构成，负责 Dubbo集群的服务发现、流量管控策略、可视化监测。
+
+## 核心能力
+### 提供微服务抽象与框架
+
+
 
 
 ## 名词概念
