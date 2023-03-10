@@ -312,11 +312,34 @@ pod "nginxpod" deleted
 
 此时发现两个资源对象被删除了
 
-##### 总结:
+**总结**:
     命令式对象配置的方式操作资源，可以简单的认为：命令  +  yaml配置文件（里面是命令需要的各种参数）
 
 
 #### 声明式对象配置
+声明式对象配置跟命令式对象配置很相似,但是它只有一个命令apply
+
+```shell
+# 首先执行一次kubectl apply -f yaml文件，发现创建了资源
+[root@master ~]#  kubectl apply -f nginxpod.yaml
+namespace/dev created
+pod/nginxpod created
+
+# 再次执行一次kubectl apply -f yaml文件，发现说资源没有变动
+[root@master ~]#  kubectl apply -f nginxpod.yaml
+namespace/dev unchanged
+pod/nginxpod unchanged
+```
+
+**总结**:
+    其实声明式对象配置就是使用apply描述一个资源最终的状态（在yaml中定义状态）
+    使用apply操作资源：
+        如果资源不存在，就创建，相当于 kubectl create
+        如果资源已存在，就更新，相当于 kubectl patch
+
+> 扩展: kubectl 可以在node节点上运行吗?
+> 	kubectl的运行是需要进行配置的,它的配置文件是¥sh
+
 
 
 
