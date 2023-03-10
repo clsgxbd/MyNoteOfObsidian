@@ -132,9 +132,17 @@
                 "file": "z_技术点/Kubernetes.md"
               }
             }
+          },
+          {
+            "id": "9442c1a5ce5030af",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -148,13 +156,16 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5a7b63c87e0992bc",
+  "active": "9442c1a5ce5030af",
   "lastOpenFiles": [
-    "模版/技术点模版.md",
+    "z_技术点/Obsidian.md",
     "z_技术点/Kubernetes.md",
+    "z_技术点/image/Pasted image 20230310103627.png",
+    "模版/技术点模版.md",
     "夕航/日记/2023-03-10.md",
     "z_技术点/image/Pasted image 20230310102026.png",
     "z_技术点/image/Pasted image 20230310102023.png",

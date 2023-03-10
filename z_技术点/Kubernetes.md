@@ -63,35 +63,32 @@ Label：标签，用于对pod进行分类，同一类pod会拥有相同的标签
 NameSpace：命名空间，用来隔离pod的运行环境
 
 
-
-
-
 ## 常用命令
 
-```
-#后台部署命令
-#也可用于更新原先的部署的应用,无缝衔接
+```shell
+# 后台部署命令
+# 也可用于更新原先的部署的应用,无缝衔接
 kubectl apply -f deployment.yaml
 ```
 ![](image/Pasted%20image%2020230310101448.png)
 
 
-```
-#查看pod的运行状态
+```shell
+# 查看pod的运行状态
 kubectl get pods [ | grep ... ]
 ```
 ![](image/Pasted%20image%2020230310101437.png)
 
 
-```
-#查看所有创建的服务
+```shell
+# 查看所有创建的服务
 kubectl get services
 ```
 ![](image/Pasted%20image%2020230310101538.png)
 
 
-```
-#从集群上移除应用
+```shell
+# 从集群上移除应用
 kubectl delete -f deployment.yaml
 ```
 ![](image/Pasted%20image%2020230310102026.png)
@@ -104,10 +101,64 @@ kubectl delete -f deployment.yaml
 - kubernetes的最小管理单元是pod而不是容器，所以只能将容器放在Pod中，而kubernetes一般也不会直接管理Pod，而是通过Pod控制器来管理Pod的。
 - Pod可以提供服务之后，就要考虑如何访问Pod中服务，kubernetes提供了Service资源实现这个功能。
 - 当然，如果Pod中程序的数据需要持久化，kubernetes还提供了各种存储系统。
+![](image/Pasted%20image%2020230310103627.png)
+
+> 学习kubernetes的核心，就是学习如何对集群上的`Pod、Pod控制器、Service、存储`等各种资源进行操作
+
+### 资源管理方式
+- 命令式对象管理: 直接使用命令去操作kubernetes资源
+```shell
+kubectl run nginx-pod --image=nginx:1.17.1 --port=80
+```
+- 命令式对象配置: 通过命令配置和配置文件去操作kubernetes资源
+```shell
+kubectl create/patch -f nginx-pod.yaml
+```
+- 声明式对象配置: 通过apply命令和配置文件去操作kubernetes资源
+```
+kubectl apply -f nginx-pod.yaml
+```
+
+| 类型           | 操作对象 | 试用环境 | 优点          | 缺点                           |
+| -------------- | -------- | -------- | ------------- | ------------------------------ |
+| 命令式对象管理 | 对象     | 测试     | 简单          | 只能操作活动对象,无法审计,跟踪 |
+| 命令式对象配置 | 文件     | 开发     | 可以审计,跟踪 | 项目大时,配置文件多,操作麻烦   |
+| 声明式对象配置 | 目录     | 开发     | 支持目录操作  | 意外情况下难以调试             | 
+
+#### 命令式对象管理
+kubectl命令
+kubectl是kubernetes集群的命令行工具, 通过它能够对集群本身惊醒管理,并能够在集群上进行容器化应用的安装部署. kubectl命令的语法如下
+```shell
+kubectl [command] [type] [name] [flags]
+```
+-   **comand**：指定要对资源执行的操作，例如create、get、delete
+-   **type**：指定资源类型，比如deployment、pod、service
+-   **name**：指定资源的名称，名称大小写敏感
+-   **flags**：指定额外的可选参数
+```shell
+# 查看所有pod
+kubectl get pod
+
+# 查看某个pod
+kubectl get pod pod_name
+
+# 查看某个pod, 以yaml格式展示结果
+kubectl get pod pod_name -o yaml
+```
 
 
 
 
+
+
+
+
+
+
+
+#### 命令式对象配置
+
+#### 声明式对象配置
 
 
 
