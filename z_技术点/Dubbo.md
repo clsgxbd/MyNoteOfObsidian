@@ -24,6 +24,8 @@ Dubbo 从架构图上分为数据面和控制面。在数据面，使用 Dubbo �
 ## 核心能力
 ### 提供微服务抽象与框架
 
+#todo 
+ [一文帮你快速了解 Dubbo 核心能力](https://cn.dubbo.apache.org/zh-cn/blog/2023/02/23/%E4%B8%80%E6%96%87%E5%B8%AE%E4%BD%A0%E5%BF%AB%E9%80%9F%E4%BA%86%E8%A7%A3-dubbo-%E6%A0%B8%E5%BF%83%E8%83%BD%E5%8A%9B/)
 
 
 
