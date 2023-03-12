@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "夕航/草稿/需求-优化禁言.md",
+                "file": "z_技术点/IDEA.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "夕航/草稿/需求-优化禁言.md",
+                "file": "z_技术点/IDEA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "夕航/草稿/需求-优化禁言.md",
+                "file": "z_技术点/IDEA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "夕航/草稿/需求-优化禁言.md"
+                "file": "z_技术点/IDEA.md"
               }
             }
           },
@@ -176,6 +176,7 @@
   },
   "active": "a903f9ba28726d28",
   "lastOpenFiles": [
+    "夕航/草稿/需求-优化禁言.md",
     "夕航/草稿/image/Pasted image 20230310182839.png",
     "夕航/草稿/image/Pasted image 20230310182326.png",
     "z_技术点/Kubernetes.md",
@@ -183,7 +184,6 @@
     "夕航/文档/deploy脚本解析.md",
     "z_技术点/AOP.md",
     "z_技术点/动态SQL.md",
-    "夕航/草稿/需求-优化禁言.md",
     "夕航/日记/2023-03-10.md",
     "夕航/草稿/image/Pasted image 20230310144701.png",
     "夕航/草稿/image/Pasted image 20230310144418.png",
@@ -208,7 +208,6 @@
     "z_技术点/image/Pasted image 20230310102026.png",
     "z_技术点/image/Pasted image 20230310102023.png",
     "z_技术点/image/Pasted image 20230310101538.png",
-    "z_技术点/image/Pasted image 20230310101448.png",
     "模版/周报模版.md",
     "夕航/周报/大木周报2023.md",
     "夕航/周报/本周.md",
