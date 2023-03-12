@@ -21,22 +21,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "a903f9ba28726d28",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "z_技术点/IDEA.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -103,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z_技术点/IDEA.md",
+                "file": "夕航/草稿/需求-优化禁言.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z_技术点/IDEA.md",
+                "file": "夕航/草稿/需求-优化禁言.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z_技术点/IDEA.md"
+                "file": "夕航/草稿/需求-优化禁言.md"
               }
             }
           },
@@ -174,8 +160,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a903f9ba28726d28",
+  "active": "346a56678d694666",
   "lastOpenFiles": [
+    "z_技术点/IDEA.md",
     "夕航/草稿/需求-优化禁言.md",
     "夕航/草稿/image/Pasted image 20230310182839.png",
     "夕航/草稿/image/Pasted image 20230310182326.png",
@@ -196,7 +183,6 @@
     "z_技术点/高内聚-低耦合.md",
     "z_技术点/布隆过滤器.md",
     "z_技术点/电商模式.md",
-    "z_技术点/IDEA.md",
     "模版/技术点模版.md",
     "z_技术点/Obsidian.md",
     "夕航/操作/跳板机.md",
