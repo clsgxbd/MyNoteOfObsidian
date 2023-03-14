@@ -48,7 +48,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -116,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "夕航/草稿/需求-优化禁言.md",
+                "file": "夕航/日记/2023-03-13.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "夕航/草稿/需求-优化禁言.md",
+                "file": "夕航/日记/2023-03-13.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "夕航/草稿/需求-优化禁言.md"
+                "file": "夕航/日记/2023-03-13.md"
               }
             }
           },
@@ -187,10 +188,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "346a56678d694666",
+  "active": "a8b4e453232dd304",
   "lastOpenFiles": [
-    "夕航/日记/2023-03-13.md",
     "夕航/草稿/需求-优化禁言.md",
+    "夕航/日记/2023-03-13.md",
     "夕航/草稿/image/Pasted image 20230314130018.png",
     "z_技术点/Dubbo.md",
     "z_技术点/image/Pasted image 20230313185732.png",
