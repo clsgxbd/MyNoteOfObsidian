@@ -1,5 +1,6 @@
 {
   "autorun": true,
   "folder": "夕航/日记",
-  "template": ""
+  "template": "",
+  "format": "YYYY-MM-DD-dddd"
 }
