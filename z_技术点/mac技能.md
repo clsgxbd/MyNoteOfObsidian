@@ -6,6 +6,7 @@
 最小化->command+H
 切换全屏 -> Command+Control+F
 网易翻译： command+shift+2
+同一个应用切换窗口快捷键 <mark>command + shift + `</mark>
 
 mac如何查看文件路径
 使用【访达】的【显示】设置显示完整路径。 打开【访达】，找到菜单栏中的【显示】-》【显示路径栏】，或者使用快捷键 【option+command+p】显示路径栏。

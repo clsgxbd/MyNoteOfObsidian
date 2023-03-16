@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "夕航/日记/2023-03-15-星期三.md",
+                "file": "z_技术点/mac技能.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "夕航/日记/2023-03-15-星期三.md",
+                "file": "z_技术点/mac技能.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "夕航/日记/2023-03-15-星期三.md",
+                "file": "z_技术点/mac技能.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "夕航/日记/2023-03-15-星期三.md"
+                "file": "z_技术点/mac技能.md"
               }
             }
           },
@@ -159,8 +159,10 @@
   },
   "active": "d76bad16f390b0dd",
   "lastOpenFiles": [
-    "夕航/文档/账号.md",
+    "z_技术点/IDEA.md",
+    "z_技术点/mac技能.md",
     "夕航/日记/2023-03-15-星期三.md",
+    "夕航/文档/账号.md",
     "夕航/日记/2023-03-13-星期一.md",
     "夕航/日记/2023-03-14-星期二.md",
     "夕航/草稿/需求-优化禁言.md",
@@ -183,8 +185,6 @@
     "模版/周报模版.md",
     "夕航/文档/deploy脚本解析.md",
     "z_技术点/GOF的23种设计模式.md",
-    "z_技术点/策略模式.md",
-    "z_技术点/工厂模式.md",
     "夕航/草稿/image/Pasted image 20230314130018.png",
     "z_技术点/image/Pasted image 20230313185732.png",
     "z_技术点/image/Pasted image 20230313185709.png",
