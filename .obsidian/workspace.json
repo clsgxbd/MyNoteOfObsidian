@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z_技术点/Zookeeper.md",
+                "file": "夕航/日记/2023-03-06-星期一.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "工具类",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z_技术点/Zookeeper.md",
+                "file": "夕航/日记/2023-03-06-星期一.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z_技术点/Zookeeper.md",
+                "file": "夕航/日记/2023-03-06-星期一.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z_技术点/Zookeeper.md"
+                "file": "夕航/日记/2023-03-06-星期一.md"
               }
             }
           },
@@ -159,6 +160,9 @@
   },
   "active": "d76bad16f390b0dd",
   "lastOpenFiles": [
+    "待整理/面试题/公司面试题.md",
+    "待整理/2023-01-05-公司面试题.md",
+    "z_技术点/Zookeeper.md",
     "夕航/日记/2023-03-16-星期四.md",
     "夕航/日记/2023-03-15-星期三.md",
     "z_技术点/mac技能.md",
@@ -168,7 +172,6 @@
     "夕航/日记/2023-03-14-星期二.md",
     "夕航/草稿/需求-优化禁言.md",
     "模版/技术点模版.md",
-    "z_技术点/Zookeeper.md",
     "夕航/日记/2023-03-10-星期五.md",
     "夕航/日记/2023-03-09-星期四.md",
     "夕航/日记/2023-03-08-星期三.md",
@@ -183,8 +186,6 @@
     "z_技术点/RocketMQ.md",
     "z_技术点/手机号脱敏.md",
     "夕航/周报/大木周报2023.md",
-    "模版/周报模版.md",
-    "夕航/文档/deploy脚本解析.md",
     "夕航/草稿/image/Pasted image 20230314130018.png",
     "z_技术点/image/Pasted image 20230313185732.png",
     "z_技术点/image/Pasted image 20230313185709.png",
