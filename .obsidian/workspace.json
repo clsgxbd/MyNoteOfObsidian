@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "夕航/日记/2023-03-17-星期五.md",
+                "file": "夕航/草稿/需求-优化禁言.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d4ce707aeb2f5d5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "夕航/草稿/需求-批量导出导入乐谱.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "夕航/日记/2023-03-17-星期五.md",
+                "file": "夕航/草稿/需求-批量导出导入乐谱.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "夕航/日记/2023-03-17-星期五.md",
+                "file": "夕航/草稿/需求-批量导出导入乐谱.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "夕航/日记/2023-03-17-星期五.md"
+                "file": "夕航/草稿/需求-批量导出导入乐谱.md"
               }
             }
           },
@@ -157,10 +171,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d76bad16f390b0dd",
+  "active": "d4ce707aeb2f5d5a",
   "lastOpenFiles": [
-    "夕航/日记/2023-03-16-星期四.md",
+    "夕航/草稿/image/Pasted image 20230317180922.png",
+    "夕航/草稿/image/Pasted image 20230317180857.png",
+    "夕航/草稿/需求-优化禁言.md",
+    "夕航/草稿/需求-批量导出导入乐谱.md",
     "夕航/日记/2023-03-17-星期五.md",
+    "夕航/日记/2023-03-16-星期四.md",
     "夕航/日记/2023-03-06-星期一.md",
     "待整理/面试题/公司面试题.md",
     "待整理/2023-01-05-公司面试题.md",
@@ -171,7 +189,6 @@
     "夕航/文档/账号.md",
     "夕航/日记/2023-03-13-星期一.md",
     "夕航/日记/2023-03-14-星期二.md",
-    "夕航/草稿/需求-优化禁言.md",
     "模版/技术点模版.md",
     "夕航/日记/2023-03-10-星期五.md",
     "夕航/日记/2023-03-09-星期四.md",
@@ -183,8 +200,6 @@
     "夕航/日记/2023-03-02-星期四.md",
     "夕航/周报/本周.md",
     "z_技术点/helm.md",
-    "z_技术点/RocketMQ.md",
-    "z_技术点/手机号脱敏.md",
     "夕航/草稿/image/Pasted image 20230314130018.png",
     "z_技术点/image/Pasted image 20230313185732.png",
     "z_技术点/image/Pasted image 20230313185709.png",
@@ -194,7 +209,6 @@
     "z_技术点/image/Pasted image 20230313185147.png",
     "z_技术点/image/Pasted image 20230313184940.png",
     "z_技术点/image/Pasted image 20230313184716.png",
-    "z_技术点/image/Pasted image 20230313184452.png",
     "夕航/草稿/image",
     "夕航/草稿",
     "模版/未命名",
