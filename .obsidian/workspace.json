@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "夕航/日记/2023-03-17-星期五.md",
+                "file": "夕航/周报/本周.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,8 +86,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 257.5
   },
   "right": {
     "id": "6cfc7d90b3108d7b",
@@ -103,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "夕航/日记/2023-03-17-星期五.md",
+                "file": "夕航/周报/本周.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "夕航/日记/2023-03-17-星期五.md",
+                "file": "夕航/周报/本周.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "夕航/日记/2023-03-17-星期五.md"
+                "file": "夕航/周报/本周.md"
               }
             }
           },
@@ -176,24 +175,26 @@
   },
   "active": "a1a740b7a08001d4",
   "lastOpenFiles": [
+    "夕航/周报/大木周报2023.md",
+    "夕航/周报/本周.md",
+    "夕航/日记/2023-03-13-星期一.md",
+    "夕航/日记/2023-03-14-星期二.md",
+    "夕航/日记/2023-03-17-星期五.md",
+    "夕航/日记/2023-03-16-星期四.md",
+    "夕航/日记/2023-03-15-星期三.md",
     "夕航/草稿/需求-批量导出导入乐谱.md",
     "夕航/草稿/image/Pasted image 20230317183750.png",
     "夕航/草稿/image/Pasted image 20230317183653.png",
     "夕航/草稿/image/Pasted image 20230317180922.png",
     "夕航/草稿/image/Pasted image 20230317180857.png",
     "夕航/草稿/需求-优化禁言.md",
-    "夕航/日记/2023-03-17-星期五.md",
-    "夕航/日记/2023-03-16-星期四.md",
     "夕航/日记/2023-03-06-星期一.md",
     "待整理/面试题/公司面试题.md",
     "待整理/2023-01-05-公司面试题.md",
     "z_技术点/Zookeeper.md",
-    "夕航/日记/2023-03-15-星期三.md",
     "z_技术点/mac技能.md",
     "z_技术点/IDEA.md",
     "夕航/文档/账号.md",
-    "夕航/日记/2023-03-13-星期一.md",
-    "夕航/日记/2023-03-14-星期二.md",
     "模版/技术点模版.md",
     "夕航/日记/2023-03-10-星期五.md",
     "夕航/日记/2023-03-09-星期四.md",
@@ -203,7 +204,6 @@
     "夕航/日记/2023-03-05-星期日.md",
     "夕航/日记/2023-03-03-星期五.md",
     "夕航/日记/2023-03-02-星期四.md",
-    "夕航/周报/本周.md",
     "z_技术点/helm.md",
     "夕航/草稿/image/Pasted image 20230314130018.png",
     "z_技术点/image/Pasted image 20230313185732.png",
