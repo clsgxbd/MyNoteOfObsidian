@@ -21,22 +21,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "a1a740b7a08001d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "夕航/周报/本周.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "夕航/周报/本周.md",
+                "file": "夕航/草稿/需求-批量导出导入乐谱.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "夕航/周报/本周.md",
+                "file": "夕航/草稿/需求-批量导出导入乐谱.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "夕航/周报/本周.md"
+                "file": "夕航/草稿/需求-批量导出导入乐谱.md"
               }
             }
           },
@@ -173,14 +159,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a1a740b7a08001d4",
+  "active": "d4ce707aeb2f5d5a",
   "lastOpenFiles": [
     "夕航/周报/大木周报2023.md",
     "夕航/周报/本周.md",
+    "夕航/日记/2023-03-16-星期四.md",
     "夕航/日记/2023-03-13-星期一.md",
     "夕航/日记/2023-03-14-星期二.md",
     "夕航/日记/2023-03-17-星期五.md",
-    "夕航/日记/2023-03-16-星期四.md",
     "夕航/日记/2023-03-15-星期三.md",
     "夕航/草稿/需求-批量导出导入乐谱.md",
     "夕航/草稿/image/Pasted image 20230317183750.png",
