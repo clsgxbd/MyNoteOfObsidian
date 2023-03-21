@@ -23,12 +23,27 @@
             }
           },
           {
-            "id": "0856e043f0817ab2",
+            "id": "1042ff1ebc93e929",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "夕航/操作/查看数据库.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "5f62c653db4f6a00",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "夕航/文档/账号.md",
+                "file": "夕航/文档/相关操作.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -36,7 +51,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -102,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "夕航/文档/账号.md",
+                "file": "夕航/文档/相关操作.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "夕航/文档/账号.md",
+                "file": "夕航/文档/相关操作.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "夕航/文档/账号.md"
+                "file": "夕航/文档/相关操作.md"
               }
             }
           },
@@ -159,8 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,12 +187,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0856e043f0817ab2",
+  "active": "dd363b3a7865cb2c",
   "lastOpenFiles": [
-    "夕航/操作/查看数据库.md",
-    "夕航/操作/查看运行日志.md",
     "夕航/操作/跳板机.md",
+    "夕航/操作/查看数据库.md",
+    "夕航/文档/相关操作.md",
+    "夕航/操作/查看运行日志.md",
     "夕航/草稿/需求-批量导出导入乐谱(线上导出,测试导入).md",
+    "夕航/文档/deploy脚本解析.md",
+    "夕航/文档/账号.md",
+    "夕航/文档/开发流程.md",
     "夕航/日记/2023-03-20-星期一.md",
     "夕航/草稿/需求-优化禁言.md",
     "夕航/日记/2023-03-13-星期一.md",
@@ -199,12 +217,8 @@
     "z_技术点/Zookeeper.md",
     "z_技术点/mac技能.md",
     "z_技术点/IDEA.md",
-    "夕航/文档/账号.md",
     "模版/技术点模版.md",
     "夕航/日记/2023-03-10-星期五.md",
-    "夕航/日记/2023-03-09-星期四.md",
-    "夕航/日记/2023-03-08-星期三.md",
-    "夕航/日记/2023-03-07-星期二.md",
     "夕航/草稿/image/Pasted image 20230314130018.png",
     "z_技术点/image/Pasted image 20230313185732.png",
     "z_技术点/image/Pasted image 20230313185709.png",
