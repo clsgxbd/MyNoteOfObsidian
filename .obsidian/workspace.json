@@ -89,6 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "夕航/草稿/需求-批量导出导入乐谱(线上导出,测试导入).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "夕航/草稿/需求-批量导出导入乐谱(线上导出,测试导入).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +128,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "夕航/草稿/需求-批量导出导入乐谱(线上导出,测试导入).md"
+              }
             }
           },
           {
@@ -156,8 +160,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b8210e9f649080e1",
+  "active": "d4ce707aeb2f5d5a",
   "lastOpenFiles": [
+    "未命名.canvas",
     "z_技术点/策略模式.md",
     "z_技术点/电商模式.md",
     "夕航/日记/2023-03-21-星期二.md",
@@ -187,7 +192,6 @@
     "待整理/面试题/公司面试题.md",
     "待整理/2023-01-05-公司面试题.md",
     "z_技术点/Zookeeper.md",
-    "z_技术点/mac技能.md",
     "夕航/草稿/image/Pasted image 20230314130018.png",
     "z_技术点/image/Pasted image 20230313185732.png",
     "z_技术点/image/Pasted image 20230313185709.png",
@@ -198,7 +202,6 @@
     "夕航/草稿",
     "模版/未命名",
     "模版",
-    "未命名.canvas",
     "夕航/日记/image",
     "夕航/文档",
     "夕航/操作",
