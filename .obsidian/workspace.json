@@ -28,14 +28,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "夕航/日记/2023-03-20-星期一.md",
+                "file": "夕航/文档/账号.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,8 +86,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 257.5
   },
   "right": {
     "id": "6cfc7d90b3108d7b",
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "夕航/草稿/需求-批量导出导入乐谱(线上导出,测试导入).md",
+                "file": "夕航/文档/账号.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "夕航/草稿/需求-批量导出导入乐谱(线上导出,测试导入).md",
+                "file": "夕航/文档/账号.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "夕航/草稿/需求-批量导出导入乐谱(线上导出,测试导入).md"
+                "file": "夕航/文档/账号.md"
               }
             }
           },
@@ -173,11 +173,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d4ce707aeb2f5d5a",
+  "active": "0856e043f0817ab2",
   "lastOpenFiles": [
+    "夕航/操作/查看数据库.md",
+    "夕航/操作/查看运行日志.md",
+    "夕航/操作/跳板机.md",
+    "夕航/草稿/需求-批量导出导入乐谱(线上导出,测试导入).md",
     "夕航/日记/2023-03-20-星期一.md",
     "夕航/草稿/需求-优化禁言.md",
-    "夕航/草稿/需求-批量导出导入乐谱(线上导出,测试导入).md",
     "夕航/日记/2023-03-13-星期一.md",
     "夕航/日记/2023-03-14-星期二.md",
     "夕航/日记/2023-03-15-星期三.md",
@@ -202,9 +205,6 @@
     "夕航/日记/2023-03-09-星期四.md",
     "夕航/日记/2023-03-08-星期三.md",
     "夕航/日记/2023-03-07-星期二.md",
-    "夕航/日记/2023-03-05-星期日.md",
-    "夕航/日记/2023-03-03-星期五.md",
-    "夕航/日记/2023-03-02-星期四.md",
     "夕航/草稿/image/Pasted image 20230314130018.png",
     "z_技术点/image/Pasted image 20230313185732.png",
     "z_技术点/image/Pasted image 20230313185709.png",
