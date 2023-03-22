@@ -39,8 +39,7 @@ ZooKeeper 适用于存储和协同相关的关键数据，不适合用于大数�
 
 
 ## 学习参考文档
-
-
+docker安装zookeeper:  https://www.cnblogs.com/caoweixiong/p/12325410.html
 
 
 
