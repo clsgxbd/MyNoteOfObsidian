@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d4ce707aeb2f5d5a",
+            "id": "85f0ed7a9c9e9f9c",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "夕航/草稿/需求-批量导出导入乐谱(线上导出,测试导入).md",
+                "file": "z_技术点/Dubbo.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -23,12 +23,12 @@
             }
           },
           {
-            "id": "a004e9d3f7041a4f",
+            "id": "77bb0e29e87cabfe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z_技术点/Dubbo.md",
+                "file": "z_技术点/SPI.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -82,7 +82,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -103,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z_技术点/Dubbo.md",
+                "file": "z_技术点/SPI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z_技术点/Dubbo.md",
+                "file": "z_技术点/SPI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z_技术点/Dubbo.md"
+                "file": "z_技术点/SPI.md"
               }
             }
           },
@@ -174,8 +175,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a004e9d3f7041a4f",
+  "active": "75f60232db6b658c",
   "lastOpenFiles": [
+    "z_技术点/Dubbo.md",
+    "z_技术点/SPI.md",
+    "待整理/复习笔记/image/JavaEE_JVM/mark_sweep.gif",
+    "夕航/草稿/需求-批量导出导入乐谱(线上导出,测试导入).md",
     "z_技术点/image/Pasted image 20230322144637.png",
     "z_技术点/image/Pasted image 20230322144501.png",
     "z_技术点/image/Pasted image 20230322144230.png",
@@ -183,11 +188,9 @@
     "z_技术点/image/Pasted image 20230322143938.png",
     "z_技术点/image/Pasted image 20230322143900.png",
     "z_技术点/image/Pasted image 20230322143831.png",
-    "夕航/草稿/需求-批量导出导入乐谱(线上导出,测试导入).md",
     "夕航/文档/账号.md",
     "z_技术点/Zookeeper.md",
     "z_技术点/docker.md",
-    "z_技术点/Dubbo.md",
     "夕航/日记/2023-03-22-星期三.md",
     "夕航/日记/2023-03-06-星期一.md",
     "夕航/日记/2023-03-15-星期三.md",
@@ -210,8 +213,6 @@
     "夕航/日记/2023-03-14-星期二.md",
     "夕航/草稿/image/Pasted image 20230310182326.png",
     "夕航/草稿/image/Pasted image 20230310182839.png",
-    "夕航/草稿/image/Pasted image 20230314130018.png",
-    "夕航/草稿/image/Pasted image 20230317180857.png",
     "夕航.zip",
     "未命名.canvas",
     "夕航/草稿/image",
