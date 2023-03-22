@@ -1,7 +1,7 @@
 {
   "showFrontmatter": true,
   "showLineNumber": false,
-  "attachmentFolderPath": ".//image",
+  "attachmentFolderPath": "./",
   "newFileLocation": "folder",
   "alwaysUpdateLinks": true,
   "newLinkFormat": "relative",

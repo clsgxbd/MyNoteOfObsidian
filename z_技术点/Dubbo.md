@@ -96,8 +96,7 @@ Dubbo 的另一个优势在于其可扩展性设计，从流量管控、协议�
 
 ## 实战入门
 
-## 高级用法
-
+## 高级用法 #dubbo高级用法
 
 ## 胡柴分享:
 ### Java的SPI和Dubbo的SPI的区别? 
@@ -170,29 +169,15 @@ defaultSender.sendMessage("Hello World!"); // 输出 "AlternativeMessageSender: 
 需要注意的是，这里只是一个简单的示例，实际应用中需要考虑更多的异常处理情况，如类找不到、无法创建实例等异常。同时，在使用反射机制时也需要谨慎考虑性能和安全问题。
 
 
-
-Dubbo3新特性
-
-服务发现
-
-Triple协议
-
+### Dubbo3新特性
+1. Triple 协议
+2. 应用级服务发现
+3. Mesh 路由规则
   
-
-  
-
-自定义二进制协议
-
-4 1 2 2 
-
-  
-
-  
-
-  
+[Dubbo3新特性](https://cn.dubbo.apache.org/zh-cn/overview/mannual/golang-sdk/preface/3.0_feature/)
 
 重试带来的问题?
-
+重试带来的问题
   
 
 容错
@@ -216,7 +201,9 @@ log , userID-方法名
 ## 学习参考文档
 
 [官方文档](https://cn.dubbo.apache.org/zh-cn/overview/home/)
+
 [一文帮你快速了解 Dubbo 核心能力](https://cn.dubbo.apache.org/zh-cn/blog/2023/02/23/%E4%B8%80%E6%96%87%E5%B8%AE%E4%BD%A0%E5%BF%AB%E9%80%9F%E4%BA%86%E8%A7%A3-dubbo-%E6%A0%B8%E5%BF%83%E8%83%BD%E5%8A%9B/)
 
 [Dubbo快速入门](http://t.csdn.cn/xYbZZ)
 
+[Dubbo3新特性](https://cn.dubbo.apache.org/zh-cn/overview/mannual/golang-sdk/preface/3.0_feature/)
