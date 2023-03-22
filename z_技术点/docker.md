@@ -161,7 +161,7 @@ yum remove docker \
 7. 重启容器
    docker restart 容器id(或 容器名称)
 8. 进入容器
-   docker exec -it 容器id(或 容器名称) bash
+   docker exec -it 容器id(或 容器名称) /bin/bash
    docker attach 容器id  ( 注意: 这种方法进入容器会存在一个问题，当多个终端同时进入容器时，所有窗口会同步显示，所以不太适合生产环境使用)
 9. 查看日志
    docker -logs -f 容器id(或 容器名称)

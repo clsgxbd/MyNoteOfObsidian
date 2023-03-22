@@ -4,7 +4,7 @@
 官网: https://zookeeper.apache.org/
 
 核心: 
-	简单来说zookeeper=文件系统+监听通知机制
+	ZooKeeper= 文件系统 + 监听通知机制 + ACL
 
 ## 概念
 - 它是一个分布式服务框架，是Apache Hadoop 的一个子项目，它主要是用来解决分布式应用中经常遇到的一些数据管理问题，如：统一命名服务、状态同步服务、集群管理、分布式应用配置项的管理等。
@@ -41,14 +41,13 @@ Znode实际上有四种形式, 默认是persistent.
 
 
 
-
-
 ## 名词概念
 
 
 
 ## 基本操作/常用命令
-
+连接ZK服务: bin/zkCli.sh
+#todo ...
 
 ## 简单使用
 
@@ -58,7 +57,8 @@ Znode实际上有四种形式, 默认是persistent.
 
 
 ## 学习参考文档
-docker安装zookeeper:  https://www.cnblogs.com/caoweixiong/p/12325410.html
+[docker安装zookeeper](https://www.cnblogs.com/caoweixiong/p/12325410.html)
 
+[ZooKeeper数据结构和实操](https://juejin.cn/post/6959754013323919391)
 
 
