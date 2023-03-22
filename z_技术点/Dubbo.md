@@ -109,7 +109,7 @@ Dubbo 的另一个优势在于其可扩展性设计，从流量管控、协议�
 
 ## 胡柴分享:
 
-#SPI协议 
+#JavaSPI
 Java的SPI和Dubbo的SPI的区别?
 
 

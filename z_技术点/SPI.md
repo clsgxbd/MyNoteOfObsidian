@@ -27,3 +27,55 @@
 	- （4）NSS – 从器件使能信号，由主器件控制,有的IC会标注为CS(Chip select)
 - 在点对点的通信中，SPI接口不需要进行寻址操作，且为全双工通信，显得简单高效。在多个从器件的系统中，每个从器件需要独立的使能信号，硬件上比I2C系统要稍微复杂一些。
 - SPI接口在内部硬件实际上是两个简单的移位寄存器，传输的数据为8位，在主器件产生的从器件使能信号和移位脉冲下，按位传输，高位在前，低位在后。如下图所示，在SCLK的上升沿上数据改变，同时一位数据被存入移位寄存器。
+
+## #JavaSPI  
+- Java SPI(Service Provider Interface) 是一种用于扩展框架的机制. 它允许开发人员定义一个接口, 然后提供多个实现, 并且不需要知道具体实现类的名字, 而是通过配置文件来指定. Java SPI 机制是一种松耦合的设计模式, 可以帮助开发人员在不修改原始代码的情况下扩展应用程序的功能. 
+- Java SPI 的使用方法如下:
+  1. 定义接口: 首先定义一个接口, 作为扩展点. 
+  2. 实现接口: 编写多个实现类来实现这个接口.
+  3. 配置文件: 在METEA-INF/services 目录下, 创建一个以接口权路径名命名的文件, 文件中每行写一个实现类的全路径名.
+  4. 加载实现类: 使用Java SPI 机制, 通过ServiceLoader.load() 方法加载实现类.
+- 以下是一个简单的Java SPI 示例:
+	- 定义接口: 
+	```java
+	public interface HelloService {
+	    void sayHello();
+	}
+```
+	
+	 - 实现接口:
+	```java
+	public class EnglishHelloServiceImpl implements HelloService {
+	    public void sayHello() {
+	        System.out.println("Hello!");
+	    }
+	}
+	
+	public class ChineseHelloServiceImpl implements HelloService {
+	    public void sayHello() {
+	        System.out.println("你好！");
+	    }
+	}
+```
+
+	 - 配置文件
+	   在 META-INF/services 目录下创建一个名为 `com.example.HelloService` 的文件，内容如下：
+		```properties
+		com.example.EnglishHelloServiceImpl
+		com.example.ChineseHelloServiceImpl
+```
+	
+	 - 加载实现类
+	```java
+	ServiceLoader<HelloService> serviceLoader = ServiceLoader.load(HelloService.class);
+	for (HelloService service : serviceLoader) {
+	    service.sayHello();
+	}
+```
+
+	- 输出结果:
+	```java
+	Hello!
+	你好！
+```
+
