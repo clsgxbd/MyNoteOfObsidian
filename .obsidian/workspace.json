@@ -21,8 +21,22 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "456d9d73b39f2a0b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "z_技术点/docker.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -72,7 +86,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5
+    "width": 262.5,
+    "collapsed": true
   },
   "right": {
     "id": "6cfc7d90b3108d7b",
@@ -88,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "夕航/草稿/需求-批量导出导入乐谱(线上导出,测试导入).md",
+                "file": "z_技术点/docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "夕航/草稿/需求-批量导出导入乐谱(线上导出,测试导入).md",
+                "file": "z_技术点/docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "夕航/草稿/需求-批量导出导入乐谱(线上导出,测试导入).md"
+                "file": "z_技术点/docker.md"
               }
             }
           },
@@ -159,11 +174,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d4ce707aeb2f5d5a",
+  "active": "456d9d73b39f2a0b",
   "lastOpenFiles": [
+    "z_技术点/Dubbo.md",
+    "夕航/草稿/需求-批量导出导入乐谱(线上导出,测试导入).md",
     "夕航/文档/账号.md",
     "夕航/日记/2023-03-22-星期三.md",
-    "夕航/草稿/需求-批量导出导入乐谱(线上导出,测试导入).md",
     "夕航/日记/2023-03-06-星期一.md",
     "夕航/日记/2023-03-15-星期三.md",
     "夕航/文档/工具类.md",
@@ -195,7 +211,6 @@
     "z_技术点/Kubernetes.md",
     "夕航.zip",
     "未命名.canvas",
-    "z_技术点/策略模式.md",
     "夕航/草稿/image/Pasted image 20230317183750.png",
     "夕航/草稿/image/Pasted image 20230317183653.png",
     "夕航/草稿/image/Pasted image 20230317180922.png",
