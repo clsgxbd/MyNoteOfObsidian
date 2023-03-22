@@ -100,22 +100,18 @@ Dubbo 的另一个优势在于其可扩展性设计，从流量管控、协议�
 ## 高级用法
 
 
-## 学习参考文档
-
- [一文帮你快速了解 Dubbo 核心能力](https://cn.dubbo.apache.org/zh-cn/blog/2023/02/23/%E4%B8%80%E6%96%87%E5%B8%AE%E4%BD%A0%E5%BF%AB%E9%80%9F%E4%BA%86%E8%A7%A3-dubbo-%E6%A0%B8%E5%BF%83%E8%83%BD%E5%8A%9B/)
-
-[Dubbo快速入门](http://t.csdn.cn/xYbZZ)
-
-
 ## 胡柴分享:
-
+### Java的SPI和Dubbo的SPI的区别? 
 #JavaSPI
-Java的SPI和Dubbo的SPI的区别?
+JavaSPI和Dubbo都是服务提供者接口的机制, 都允许开发者在运行时动态的加载实现类并替换默认实现. 它们的主要区别在于以下几点: 
+1. 配置文件格式不同: Java SPI要求在META-INFO/services目录下创建以扩展点接口权限定名为名称的文件, 文件内容为实现类的全限定名. 而Dubbo SPI要求在META-INF/dubbo目录下创建以扩展点接口全限定名为名称的文件, 文件内容为实现类的全限定名.
+2. 实现方式不同: Java SPI是基于Java标准的SPI机制实现的, 使用ClassLoader来加载实现类. Dubbo SPI是在Java标准SPI机制的基础上进行了扩展和优化, 使用Adaptive机制来动态生成代理类, 并使用ExtensionLoader来加载和管理实现类.
+3. 扩展性不同: Dubbo SPI相比Java SPI更加灵活, 提供了更多的扩展点和扩展机制, 同时还支持动态配置和动态扩展. Dubbo SPI还支持对扩展点实现类的自动注入和依赖注入, 同时提供了更加完善的SPI扩展文档和示例, 方便开发者使用和扩展.
+4. 功能不同: Dubbo SPI 不仅提供了服务提供者接口机制, 还提供了服务消费者接口机制, 支持服务注册, 发现, 负载均衡, 容错, 路由哦, 过滤器等功能. 同时, Dubbo SPI还提供了更加完善的配置机制, 支持多协议, 多注册中心, 多负载均衡等复杂场景下的灵活配置.
+综上所述, 虽然Java SPI和Dubbo SPI 都是服务提供者接口的机制, 但Dubbo SPI相比Java SPI更加灵活, 功能更加完善,扩展性更强, 是一种更加适合于大型分布式系统开发的SPI机制.
 
-
-  
-- 
 还有什么实现方式?
+	
 
   
 
@@ -159,4 +155,10 @@ log , userID-方法名
 
 泛化调用  
 写一个接口 规定规则  其他服务去按照规则实现
+
+
+## 学习参考文档
+[一文帮你快速了解 Dubbo 核心能力](https://cn.dubbo.apache.org/zh-cn/blog/2023/02/23/%E4%B8%80%E6%96%87%E5%B8%AE%E4%BD%A0%E5%BF%AB%E9%80%9F%E4%BA%86%E8%A7%A3-dubbo-%E6%A0%B8%E5%BF%83%E8%83%BD%E5%8A%9B/)
+
+[Dubbo快速入门](http://t.csdn.cn/xYbZZ)
 
