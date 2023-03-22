@@ -21,22 +21,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "6112a1081b966734",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "夕航/日记/2023-03-15-星期三.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "夕航/日记/2023-03-15-星期三.md",
+                "file": "夕航/草稿/需求-批量导出导入乐谱(线上导出,测试导入).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "夕航/日记/2023-03-15-星期三.md",
+                "file": "夕航/草稿/需求-批量导出导入乐谱(线上导出,测试导入).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "夕航/日记/2023-03-15-星期三.md"
+                "file": "夕航/草稿/需求-批量导出导入乐谱(线上导出,测试导入).md"
               }
             }
           },
@@ -173,15 +159,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b8210e9f649080e1",
+  "active": "d4ce707aeb2f5d5a",
   "lastOpenFiles": [
+    "夕航/文档/账号.md",
+    "夕航/日记/2023-03-22-星期三.md",
+    "夕航/草稿/需求-批量导出导入乐谱(线上导出,测试导入).md",
     "夕航/日记/2023-03-06-星期一.md",
     "夕航/日记/2023-03-15-星期三.md",
     "夕航/文档/工具类.md",
     "夕航/文档/入门操作.md",
     "夕航/文档/开发流程.md",
     "夕航/文档/deploy脚本解析.md",
-    "夕航/文档/账号.md",
     "夕航/日记/2023-03-09-星期四.md",
     "夕航/日记/2023-03-02-星期四.md",
     "夕航/日记/2023-03-10-星期五.md",
@@ -193,7 +181,6 @@
     "夕航/日记/2023-03-17-星期五.md",
     "夕航/日记/2023-03-20-星期一.md",
     "夕航/日记/2023-03-21-星期二.md",
-    "夕航/日记/2023-03-22-星期三.md",
     "z_技术点/Shell.md",
     "夕航/日记/2023-03-14-星期二.md",
     "夕航/周报/大木周报2023.md",
@@ -206,7 +193,6 @@
     "夕航/日记/image/Pasted image 20230309150848.png",
     "夕航/日记/2023-03-05-星期日.md",
     "z_技术点/Kubernetes.md",
-    "夕航/草稿/需求-批量导出导入乐谱(线上导出,测试导入).md",
     "夕航.zip",
     "未命名.canvas",
     "z_技术点/策略模式.md",
