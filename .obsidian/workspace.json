@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z_技术点/Zookeeper.md",
+                "file": "z_技术点/docker.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z_技术点/Zookeeper.md",
+                "file": "z_技术点/docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z_技术点/Zookeeper.md",
+                "file": "z_技术点/docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z_技术点/Zookeeper.md"
+                "file": "z_技术点/docker.md"
               }
             }
           },
@@ -174,8 +174,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b8210e9f649080e1",
+  "active": "a06cf78db18470eb",
   "lastOpenFiles": [
+    "z_技术点/Zookeeper.md",
+    "z_技术点/image/Pasted image 20230322192149.png",
+    "z_技术点/image/Pasted image 20230322191054.png",
     "夕航/日记/2023-03-10-星期五.md",
     "夕航/日记/2023-03-06-星期一.md",
     "夕航/分享/胡柴-Dubbo.md",
@@ -196,7 +199,6 @@
     "z_技术点/image/Pasted image 20230322143900.png",
     "z_技术点/image/Pasted image 20230322143831.png",
     "夕航/文档/账号.md",
-    "z_技术点/Zookeeper.md",
     "z_技术点/docker.md",
     "夕航/日记/2023-03-15-星期三.md",
     "夕航/文档/工具类.md",
@@ -210,9 +212,6 @@
     "夕航/日记/2023-03-17-星期五.md",
     "夕航/日记/2023-03-20-星期一.md",
     "夕航/日记/2023-03-21-星期二.md",
-    "z_技术点/Shell.md",
-    "夕航/草稿/image/Pasted image 20230310182326.png",
-    "夕航/草稿/image/Pasted image 20230310182839.png",
     "夕航.zip",
     "未命名.canvas",
     "夕航/草稿/image",
