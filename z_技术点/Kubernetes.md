@@ -1,5 +1,5 @@
 # Kubernetes
-#Kubernetes 
+#Kubernetes  #k8s
 
 官网: https://kubernetes.io/zh-cn/
 
@@ -64,6 +64,7 @@ NameSpace：命名空间，用来隔离pod的运行环境
 
 
 ## 常用命令
+#k8s常用命令
 
 ```shell
 # 后台部署命令
