@@ -12,6 +12,8 @@
 - ZooKeeper 的设计目标是将那些复杂且容易出错的分布式一致性服务封装起来，构成一个高效可靠的原语集，并以一系列简单易用的接口提供给用户使用。
 
 ## 应用场景
+> ①数据发布/订阅 ；②负载均衡；③命名服务；④分布式协调/通知；⑤集群管理；⑥Master 选举；⑦分布式锁；⑧分布式队列。
+
 典型应用场景：
 - 配置管理（configurationmanagement） 
 - DNS服务
@@ -19,7 +21,9 @@
 - 各种分布式锁
 ZooKeeper 适用于存储和协同相关的关键数据，不适合用于大数据量存储。
 
-## 数据结构-文件系统
+
+
+## 数据结构
 ZooKeeper维护一个类似文件系统的数据结构（如下官方示意图），每一个子目录项（如app1）都被称作为znode（目录节点），和文件系统一样，我们能够自由的对一个znode进行CRUD，也可以在znode下进行子znode的CRUD，唯一不同的是，znode是可以存储数据的。
  ![](image/Pasted%20image%2020230322191054.png)
 ### znode类型
@@ -78,7 +82,7 @@ Znode实际上有四种形式, 默认是persistent.
 
 ## 监听通知机制
 #todo zookeeper监听通知机制
-
+[zookeeper监听通知机制](https://juejin.cn/post/6927241708652806158)
 ## 基本操作/常用命令
 - 连接ZK服务: bin/zkCli.sh
 
@@ -149,6 +153,9 @@ Znode实际上有四种形式, 默认是persistent.
 
 
 ## 简单使用
+### 注册中心
+
+
 
 ## 实战入门
 
@@ -156,8 +163,12 @@ Znode实际上有四种形式, 默认是persistent.
 
 
 ## 学习参考文档
+[什么是zookeeper](https://mp.weixin.qq.com/s?__biz=MzA4ODIyMzEwMg==&mid=2447535886&idx=1&sn=c7bbf5923dda56fa79c6fea823fcb09a&chksm=843bb31fb34c3a095cce135a2dcb66705087b567963b3588261db1fcc2c1d8a219a67231df67&scene=21#wechat_redirect)
+
 [docker安装zookeeper](https://www.cnblogs.com/caoweixiong/p/12325410.html)
 
 [ZooKeeper数据结构和实操](https://juejin.cn/post/6959754013323919391)
 
+[zookeeper监听通知机制](https://juejin.cn/post/6927241708652806158)
 
+#todo 稀土掘金: 小飞机yt的主页有zooleeper全套总结
