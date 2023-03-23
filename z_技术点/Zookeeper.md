@@ -38,7 +38,8 @@ Znode实际上有四种形式, 默认是persistent.
 （1）container 节点用来存放子节点，如果container节点中的子节点为0 ，则container节点在未来会被服务器删除，定时任务默认60秒执行一次。
 （2）ttl 节点默认禁用，需要通过配置开启，如果ttl 节点没有子节点，或者 ttl 节点在 指定的时间内没有被修改则会被服务器删除。
 
-
+### Znode属性
+Znode兼具文件和u路l
 
 
 ## 名词概念
@@ -57,7 +58,6 @@ Znode实际上有四种形式, 默认是persistent.
 		 create /test/test1 'hello1'
 		 create /test/test2 'hello2'
 		 create /test/test3 'hello3'
-		 
 - 查看节点: ls
 	ls -R 可以遍历节点的目录结构;
 	get 可以获取到节点的数据;
@@ -65,11 +65,9 @@ Znode实际上有四种形式, 默认是persistent.
 	 ls /test
 	 ls /test/test1
 	 ls -R /test
-	 
 - 修改数据: set
   例:
 	 set /test/test1 'hello update'
-	 
 - 删除数据
   例: 
 	  delete /test/test1
@@ -85,13 +83,32 @@ Znode实际上有四种形式, 默认是persistent.
  - 注:
 	- 如果有父节点的话, 需要先创建父节点, 不然直接创建会报错;
 	- 当然不带前缀也是可以的, 直接create -s /seq/, 这里最后的斜杠是要加的, 否则seq就会作为一个前缀来处理;
-	- 其它的修改, 删除操作和持久节点的操作是一样的.
+- 查看, 修改, 删除操作和持久节点的操作一致
 
 **3. EPHEMERAL 临时节点**
 - 创建格式: create -e
-- 
+  例: create -e /ephemeral 'hello e'
+ - 注:
+	 - 在mac下 ctrl+c 断开客户端链接, 然后在连接上, 通过 ls / 查看, 节点 /ephemeral 在断开连接之后被自动删除了;
+	 - 节点的生命周期是和当前session绑定的;
+	 - 并不是当前session断开连接就立马被删除了, 这个大概是30s的延迟, 所以立马登陆上还是能够看到刚刚创建的临时节点, 但是过了30s之后还是会被删除掉的;
+	 - 临时节点下不能有子节点, 不管是什么类型的节点都不行, 创建会报错: Ephemerals cannot have children: /ephemeral/test;
+- 查看, 修改, 删除操作和持久节点的操作一致
 
-
+**4. EPHEMERAL_SEQUENTIAL 临时顺序节点
+- 创建格式: create -e -s
+  例: 
+	  先创建父节点: create /ephemeral-seq
+	  然后创建临时顺序节点:
+		  create -e -s /ephemeral-seq/order-
+		  create -e -s /ephemeral-seq/order-
+		  create -e -s /ephemeral-seq/order-
+- 查看, 修改, 删除操作和持久节点的操作一致
+**5. container 容器节点**
+ container节点用来存放子节点, 如果container节点中的子节点为0, 则container节点在未来会被服务器删除, 定时任务默认60s执行一次.
+- 创建格式: create -c
+  例: create -c /container 
+  
 
 ## 简单使用
 
