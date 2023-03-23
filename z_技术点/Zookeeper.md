@@ -46,8 +46,12 @@ Znode实际上有四种形式, 默认是persistent.
 
 
 ## 基本操作/常用命令
-连接ZK服务: bin/zkCli.sh
-#todo ...
+- 连接ZK服务: bin/zkCli.sh
+
+**PERSISTENT 持久节点**
+- 创建格式: create
+	例: create /test ‘hello'
+- 
 
 ## 简单使用
 
