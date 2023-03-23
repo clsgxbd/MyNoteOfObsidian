@@ -19,8 +19,7 @@
 - 各种分布式锁
 ZooKeeper 适用于存储和协同相关的关键数据，不适合用于大数据量存储。
 
-
-## 结构
+## 数据结构-文件系统
 ZooKeeper维护一个类似文件系统的数据结构（如下官方示意图），每一个子目录项（如app1）都被称作为znode（目录节点），和文件系统一样，我们能够自由的对一个znode进行CRUD，也可以在znode下进行子znode的CRUD，唯一不同的是，znode是可以存储数据的。
  ![](image/Pasted%20image%2020230322191054.png)
 ### znode类型
@@ -38,13 +37,47 @@ Znode实际上有四种形式, 默认是persistent.
 （1）container 节点用来存放子节点，如果container节点中的子节点为0 ，则container节点在未来会被服务器删除，定时任务默认60秒执行一次。
 （2）ttl 节点默认禁用，需要通过配置开启，如果ttl 节点没有子节点，或者 ttl 节点在 指定的时间内没有被修改则会被服务器删除。
 
+
 ### Znode属性
-Znode兼具文件和u路l
+> - Znode兼具文件和目录两种特点. 既像文件, 又像目录一样可以作为路径标识的一部分. Znode维护着:
+> 	 - data: Znode存储的数据信息;
+> 	 - ACL: 记录Znode的访问权限;
+> 	 - stat: 包含Znode的各种元数据, 比如事务ID,版本号,时间戳,大小等等.
+> 	 - child: 当前节点的子节点引用;
+> 	把以上的几类属性细化, 又可以得到以下属性的细节:
+> 	 - cZxid: 表示节点被创建时的事务ID;
+> 	 - mZxid: 表示节点最后一次被修改时的事务ID;
+> 	 - ctime: 表示节点创建时间;
+> 	 - mtime: 表示节点最后一次被修改的时间;
+> 	 - pZxid: 表示该节点的子节点列表最后一次被修改时的事务ID. 只有子节点列表变更才会更新pZxid, 子节点内容变更不会更新;
+> 	 - cversion: 表示子节点的版本号;
+> 	 - dataVersion: 表示内容版本号;
+> 	 - dataLength: 表示数据长度;
+> 	 - numChildren: 表示子节点数;
+> 	 - ephemeralOwner: 表示创建该临时节点时的会话sessionID, 如果是持久节点那么为0;
+
+### Zxid
+>  致使ZooKeeper节点状态改变的每一个操作都将使节点接收到一个Zxid格式的时间戳，并且这个时间戳全局有序。也就是说，每个对节点的改变都将产生一个唯一的Zxid。如果Zxid1的值小于Zxid2的值，那么Zxid1所对应的事件发生在Zxid2所对应的事件之前。实际上，ZooKeeper的每个节点维护着两个Zxid值，为别为：cZxid、mZxid。
+>  - cZxid: 是节点的创建时间所对应的Zxid格式时间戳
+>  - mZxid: 是节点的修改时间所对应的Zxid格式的时间戳
+>  现实中Zxid是一个64位的数字, 它的高32位是epoch用来标识Leader关系是否改变, 每次一个Leader被选出来, 它都会有一个新的epoch. 低32位是个递增计数器.
+
+### 版本号
+>  版本号是用来记录节点数据或者是节点的子节点列表或者是权限信息的修改次数。如果一个节点的version是1，那就代表说这个节点从创建以来被修改了一次。对节点的每一个操作都将致使这个节点的版本号增加。每个节点维护着三个版本号，分别为：
+> 	 1. dataVersion: 节点数据版本号
+> 	 2. cversion: 子节点版本号
+> 	 3. aversion: 节点所拥有的ACL版本号
+>  它通过对这些数据的管理来让缓存生效并且令协调更新. 每当Znode中的数据更新后它所维护的版本号将增加.
 
 
-## 名词概念
+### ZK数据结构特点小结
+1. 每个字目录都被称为znode, 每个znode是它所在路径的唯一标识, 如test1这个znode的标识为/test/test1。
+2. znode可以有子目录, 每个znode都可以存储数据。
+3. znode可以是临时节点， 如果客户端和服务器连接的session失效，znode将会被删除（这里注意，并不是立马删除，而是有一个30秒左右的延迟）。
+4. znode节点中数据如果被修改，可以被监控到，并通知对应的客户端 #监听通知机制
 
-
+## 监听通知机制
+#todo zookeeper监听通知机制
 
 ## 基本操作/常用命令
 - 连接ZK服务: bin/zkCli.sh
@@ -104,11 +137,16 @@ Znode兼具文件和u路l
 		  create -e -s /ephemeral-seq/order-
 		  create -e -s /ephemeral-seq/order-
 - 查看, 修改, 删除操作和持久节点的操作一致
+
 **5. container 容器节点**
  container节点用来存放子节点, 如果container节点中的子节点为0, 则container节点在未来会被服务器删除, 定时任务默认60s执行一次.
 - 创建格式: create -c
   例: create -c /container 
-  
+
+- 查看Znode属性: ls -s
+  例: ls -s /test
+
+
 
 ## 简单使用
 
