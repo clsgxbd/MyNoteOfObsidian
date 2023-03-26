@@ -14,7 +14,7 @@
 			git config --global user.name "username"
 		2.2设置邮箱（没有双引号）
 			git config --global user.email useremail@qq.com
-	3.查看用户名和密码
+	3.查看用户名和邮箱
 		git config user.name
 		git config user.email
 	4·查看其他配置信息(g1t设置列表)

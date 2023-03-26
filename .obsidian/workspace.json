@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4d44af651808e2d7",
+        "id": "fb238122aede1bd5",
         "type": "tabs",
         "children": [
           {
-            "id": "13148ebc40389c2a",
+            "id": "1c407a858877524d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -157,10 +157,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b8210e9f649080e1",
+  "active": "1c407a858877524d",
   "lastOpenFiles": [
-    "单词/JavaSE单词.md",
+    "z_技术点/Git.md",
     "夕航/日记/2023-03-26-星期日.md",
+    "单词/JavaSE单词.md",
     "夕航/日记/2023-03-24-星期五.md",
     "z_技术点/IDEA.md",
     "z_技术点/Kubernetes.md",
@@ -195,7 +196,6 @@
     "z_技术点/image/Pasted image 20230322143938.png",
     "z_技术点/image/Pasted image 20230322143900.png",
     "z_技术点/image/Pasted image 20230322143831.png",
-    "夕航/日记/2023-03-15-星期三.md",
     "夕航.zip",
     "未命名.canvas",
     "夕航/草稿/image",
