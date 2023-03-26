@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "单词/JavaSE单词.md",
+                "file": "夕航/日记/2023-03-26-星期日.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "单词/JavaSE单词.md",
+                "file": "夕航/日记/2023-03-26-星期日.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "单词/JavaSE单词.md",
+                "file": "夕航/日记/2023-03-26-星期日.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "单词/JavaSE单词.md"
+                "file": "夕航/日记/2023-03-26-星期日.md"
               }
             }
           },
@@ -159,9 +159,10 @@
   },
   "active": "b8210e9f649080e1",
   "lastOpenFiles": [
+    "单词/JavaSE单词.md",
+    "夕航/日记/2023-03-26-星期日.md",
     "夕航/日记/2023-03-24-星期五.md",
     "z_技术点/IDEA.md",
-    "单词/JavaSE单词.md",
     "z_技术点/Kubernetes.md",
     "z_技术点/Dubbo.md",
     "夕航/草稿/需求-批量导出导入乐谱(线上导出,测试导入).md",
@@ -195,7 +196,6 @@
     "z_技术点/image/Pasted image 20230322143900.png",
     "z_技术点/image/Pasted image 20230322143831.png",
     "夕航/日记/2023-03-15-星期三.md",
-    "夕航/日记/2023-03-02-星期四.md",
     "夕航.zip",
     "未命名.canvas",
     "夕航/草稿/image",
