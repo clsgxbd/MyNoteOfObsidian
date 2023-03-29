@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "夕航/日记/2023-03-06-星期一.md",
+                "file": "OKR.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225.5
+    "width": 225.5,
+    "collapsed": true
   },
   "right": {
     "id": "6cfc7d90b3108d7b",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "夕航/日记/2023-03-06-星期一.md",
+                "file": "OKR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "夕航/日记/2023-03-06-星期一.md",
+                "file": "OKR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "夕航/日记/2023-03-06-星期一.md"
+                "file": "OKR.md"
               }
             }
           },
@@ -159,8 +160,11 @@
   },
   "active": "ff94074d8cfeea62",
   "lastOpenFiles": [
-    "夕航/日记/2023-03-07-星期二.md",
+    "OKR.md",
+    "OKR.md",
     "夕航/日记/2023-03-06-星期一.md",
+    "okr.pdf",
+    "夕航/日记/2023-03-07-星期二.md",
     "夕航/日记/2023-03-03-星期五.md",
     "夕航/日记/2023-03-02-星期四.md",
     "夕航/周报/大木周报2023.md",
@@ -184,8 +188,6 @@
     "z_技术点/Git.md",
     "单词/JavaSE单词.md",
     "z_技术点/IDEA.md",
-    "z_技术点/Kubernetes.md",
-    "z_技术点/Dubbo.md",
     "z_技术点/image/Pasted image 20230322192149.png",
     "z_技术点/image/Pasted image 20230322191054.png",
     "夕航/分享",
@@ -204,7 +206,6 @@
     "模版/未命名",
     "模版",
     "夕航/日记/image",
-    "夕航/文档",
-    "夕航/操作"
+    "夕航/文档"
   ]
 }
