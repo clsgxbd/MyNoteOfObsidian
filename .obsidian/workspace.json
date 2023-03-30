@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "OKR.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -160,6 +160,8 @@
   },
   "active": "ff94074d8cfeea62",
   "lastOpenFiles": [
+    "image/Pasted image 20230330110022.png",
+    "image",
     "夕航/草稿/需求-优化禁言.md",
     "OKR.md",
     "OKR.md",
@@ -187,7 +189,6 @@
     "conflict-files-obsidian-git.md",
     "z_技术点/Git.md",
     "单词/JavaSE单词.md",
-    "z_技术点/IDEA.md",
     "z_技术点/image/Pasted image 20230322192149.png",
     "z_技术点/image/Pasted image 20230322191054.png",
     "夕航/分享",
@@ -205,7 +206,6 @@
     "夕航/草稿",
     "模版/未命名",
     "模版",
-    "夕航/日记/image",
-    "夕航/文档"
+    "夕航/日记/image"
   ]
 }
