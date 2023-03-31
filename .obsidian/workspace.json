@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OKR.md",
+                "file": "z_技术点/Git.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OKR.md",
+                "file": "z_技术点/Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OKR.md",
+                "file": "z_技术点/Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OKR.md"
+                "file": "z_技术点/Git.md"
               }
             }
           },
@@ -160,11 +160,10 @@
   },
   "active": "ff94074d8cfeea62",
   "lastOpenFiles": [
+    "OKR.md",
     "image/Pasted image 20230330110022.png",
     "image",
     "夕航/草稿/需求-优化禁言.md",
-    "OKR.md",
-    "OKR.md",
     "夕航/日记/2023-03-06-星期一.md",
     "okr.pdf",
     "夕航/日记/2023-03-07-星期二.md",
@@ -199,7 +198,6 @@
     "z_技术点/image/Pasted image 20230322143953.png",
     "z_技术点/image/Pasted image 20230322143938.png",
     "z_技术点/image/Pasted image 20230322143900.png",
-    "z_技术点/image/Pasted image 20230322143831.png",
     "夕航.zip",
     "未命名.canvas",
     "夕航/草稿/image",
