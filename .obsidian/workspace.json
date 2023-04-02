@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "夕航/草稿/需求-优化禁言.md",
+                "file": "夕航/周报/大木周报2023.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225.5,
-    "collapsed": true
+    "width": 225.5
   },
   "right": {
     "id": "6cfc7d90b3108d7b",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "夕航/草稿/需求-优化禁言.md",
+                "file": "夕航/周报/大木周报2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "夕航/草稿/需求-优化禁言.md",
+                "file": "夕航/周报/大木周报2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "夕航/草稿/需求-优化禁言.md"
+                "file": "夕航/周报/大木周报2023.md"
               }
             }
           },
@@ -160,23 +159,23 @@
   },
   "active": "ff94074d8cfeea62",
   "lastOpenFiles": [
+    "夕航/周报/本周.md",
+    "夕航/周报/大木周报2023.md",
+    "夕航/草稿/需求-优化禁言.md",
     "z_技术点/Git.md",
     "OKR.md",
     "image/Pasted image 20230330110022.png",
     "image",
-    "夕航/草稿/需求-优化禁言.md",
     "夕航/日记/2023-03-06-星期一.md",
     "okr.pdf",
     "夕航/日记/2023-03-07-星期二.md",
     "夕航/日记/2023-03-03-星期五.md",
     "夕航/日记/2023-03-02-星期四.md",
-    "夕航/周报/大木周报2023.md",
     "夕航/日记/2023-03-23-星期四.md",
     "夕航/日记/2023-03-24-星期五.md",
     "夕航/文档/开发流程.md",
     "夕航/草稿/需求-批量导出导入乐谱(线上导出,测试导入).md",
     "模版/周报模版.md",
-    "夕航/周报/本周.md",
     "夕航/日记/2023-03-22-星期三.md",
     "夕航/日记/2023-03-21-星期二.md",
     "夕航/日记/2023-03-20-星期一.md",
