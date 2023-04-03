@@ -11,30 +11,13 @@
             "id": "8454b77e9467b926",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "待整理/2023-01-11-面试题(准备).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "174b46bbb1a6414a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "夕航/日记/2023-04-03-星期一.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "夕航/需求分析/用户禁言需求分析.png"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -80,13 +63,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 225.5,
-    "collapsed": true
+    "width": 225.5
   },
   "right": {
     "id": "6cfc7d90b3108d7b",
@@ -102,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "夕航/日记/2023-04-03-星期一.md",
+                "file": "夕航/需求分析/用户禁言需求分析.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "夕航/日记/2023-04-03-星期一.md",
+                "file": "夕航/需求分析/用户禁言需求分析.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "夕航/日记/2023-04-03-星期一.md"
+                "file": "夕航/需求分析/用户禁言需求分析.png"
               }
             }
           },
@@ -173,10 +154,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "174b46bbb1a6414a",
+  "active": "b8210e9f649080e1",
   "lastOpenFiles": [
     "待整理/2023-01-11-面试题(准备).md",
+    "夕航/需求分析/用户禁言需求分析.png",
     "夕航/日记/2023-04-03-星期一.md",
+    "夕航/需求分析/无标题-2023-04-03-1206.png.crswap",
+    "夕航/需求分析/用户禁言需求分析.excalidraw.crswap",
+    "夕航/需求分析/用户禁言需求分析.excalidraw",
+    "夕航/需求分析",
     "单词/JavaSE单词.md",
     "模版/日记模版.md",
     "夕航/周报/大木周报2023.md",
@@ -203,7 +189,6 @@
     "夕航/日记/2023-03-17-星期五.md",
     "夕航/日记/2023-03-27-星期一.md",
     "夕航/日记/2023-03-26-星期日.md",
-    "夕航/README.md",
     "夕航/xihang",
     "z_技术点/image/Pasted image 20230322192149.png",
     "z_技术点/image/Pasted image 20230322191054.png",
@@ -214,13 +199,8 @@
     "z_技术点/image/Pasted image 20230322144230.png",
     "z_技术点/image/Pasted image 20230322143953.png",
     "z_技术点/image/Pasted image 20230322143938.png",
-    "z_技术点/image/Pasted image 20230322143900.png",
     "夕航.zip",
     "未命名.canvas",
-    "夕航/草稿/image",
-    "夕航/草稿",
-    "模版/未命名",
-    "模版",
-    "夕航/日记/image"
+    "夕航/草稿/image"
   ]
 }
