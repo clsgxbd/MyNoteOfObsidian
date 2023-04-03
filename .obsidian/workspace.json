@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "3f56b9df57510ae6",
+        "id": "5895ec56e5c76bba",
         "type": "tabs",
         "children": [
           {
-            "id": "ff94074d8cfeea62",
+            "id": "7825beb8b315a58b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "夕航/周报/大木周报2023.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -157,7 +152,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ff94074d8cfeea62",
+  "active": "b8210e9f649080e1",
   "lastOpenFiles": [
     "夕航/周报/本周.md",
     "夕航/周报/大木周报2023.md",
