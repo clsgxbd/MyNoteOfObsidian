@@ -33,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,7 +84,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225.5
+    "width": 225.5,
+    "collapsed": true
   },
   "right": {
     "id": "6cfc7d90b3108d7b",
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "夕航/文档/入门操作.md",
+                "file": "夕航/草稿/需求-优化禁言.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "夕航/文档/入门操作.md",
+                "file": "夕航/草稿/需求-优化禁言.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "夕航/文档/入门操作.md"
+                "file": "夕航/草稿/需求-优化禁言.md"
               }
             }
           },
@@ -172,10 +172,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "dbf9e093d9ea93c5",
+  "active": "4ef0dbab1b5de219",
   "lastOpenFiles": [
-    "夕航/日记/2023-03-06-星期一.md",
     "夕航/文档/入门操作.md",
+    "夕航/日记/2023-03-06-星期一.md",
     "夕航/文档/开发流程.md",
     "夕航/文档/账号.md",
     "夕航/草稿/需求-优化禁言.md",
