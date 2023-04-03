@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "174b46bbb1a6414a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "夕航/日记/2023-04-03-星期一.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -88,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "待整理/2023-01-11-面试题(准备).md",
+                "file": "夕航/日记/2023-04-03-星期一.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "待整理/2023-01-11-面试题(准备).md",
+                "file": "夕航/日记/2023-04-03-星期一.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "待整理/2023-01-11-面试题(准备).md"
+                "file": "夕航/日记/2023-04-03-星期一.md"
               }
             }
           },
@@ -159,8 +173,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8454b77e9467b926",
+  "active": "174b46bbb1a6414a",
   "lastOpenFiles": [
+    "待整理/2023-01-11-面试题(准备).md",
     "夕航/日记/2023-04-03-星期一.md",
     "单词/JavaSE单词.md",
     "模版/日记模版.md",
@@ -189,7 +204,6 @@
     "夕航/日记/2023-03-27-星期一.md",
     "夕航/日记/2023-03-26-星期日.md",
     "夕航/README.md",
-    "夕航/xihang/README.md",
     "夕航/xihang",
     "z_技术点/image/Pasted image 20230322192149.png",
     "z_技术点/image/Pasted image 20230322191054.png",
