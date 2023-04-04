@@ -11,9 +11,12 @@
             "id": "4ef0dbab1b5de219",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "夕航/需求分析/用户禁言需求分析.png"
+                "file": "夕航/文档/账号.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           },
@@ -80,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225.5,
-    "collapsed": true
+    "width": 225.5
   },
   "right": {
     "id": "6cfc7d90b3108d7b",
@@ -97,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "夕航/需求分析/用户禁言需求分析.png",
+                "file": "夕航/文档/账号.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "夕航/需求分析/用户禁言需求分析.png",
+                "file": "夕航/文档/账号.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "夕航/需求分析/用户禁言需求分析.png"
+                "file": "夕航/文档/账号.md"
               }
             }
           },
@@ -170,6 +172,7 @@
   },
   "active": "4ef0dbab1b5de219",
   "lastOpenFiles": [
+    "夕航/需求分析/用户禁言需求分析.png",
     "夕航/需求分析/思维导图.md",
     "夕航/草稿/需求-优化禁言.md",
     "夕航/文档/入门操作.md",
@@ -184,7 +187,6 @@
     "夕航/日记/2023-03-03-星期五.md",
     "夕航/日记/2023-03-02-星期四.md",
     "夕航/日记/2023-03-24-星期五.md",
-    "夕航/需求分析/用户禁言需求分析.png",
     "夕航/需求分析/未命名",
     "夕航/需求分析/无标题-2023-04-03-1206.png.crswap",
     "待整理/2023-01-11-面试题(准备).md",
@@ -204,7 +206,6 @@
     "okr.pdf",
     "夕航/日记/2023-03-23-星期四.md",
     "夕航/日记/2023-03-22-星期三.md",
-    "夕航/日记/2023-03-21-星期二.md",
     "夕航/xihang",
     "z_技术点/image/Pasted image 20230322192149.png",
     "z_技术点/image/Pasted image 20230322191054.png",
