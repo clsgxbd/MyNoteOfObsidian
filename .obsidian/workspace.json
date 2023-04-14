@@ -10,6 +10,7 @@
           {
             "id": "45900a0b9e8a20f8",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -17,7 +18,8 @@
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ]
@@ -162,6 +164,7 @@
   "lastOpenFiles": [
     "夕航/日记/2023-04-14-星期五.md",
     "夕航/日记/2023-04-13-星期四.md",
+    "z_技术点/GOF的23种设计模式.md",
     "夕航/日记/2023-04-03-星期一.md",
     "夕航/日记/2023-03-16-星期四.md",
     "夕航/日记/2023-03-15-星期三.md",
@@ -185,7 +188,6 @@
     "夕航/周报/大木周报2023.md",
     "夕航/周报/本周.md",
     "README.md",
-    "夕航/README.md",
     "夕航/需求分析/用户禁言需求分析.png",
     "image/Pasted image 20230330110022.png",
     "夕航/需求分析/未命名",
