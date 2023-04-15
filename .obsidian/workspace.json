@@ -72,8 +72,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225.5,
-    "collapsed": true
+    "width": 225.5
   },
   "right": {
     "id": "6cfc7d90b3108d7b",
@@ -160,7 +159,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b8210e9f649080e1",
+  "active": "45900a0b9e8a20f8",
   "lastOpenFiles": [
     "夕航/日记/2023-04-14-星期五.md",
     "夕航/日记/2023-04-13-星期四.md",
