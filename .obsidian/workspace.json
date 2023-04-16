@@ -1,29 +1,14 @@
 {
   "main": {
-    "id": "f556120e319b040f",
+    "id": "45bc00edd23549be",
     "type": "split",
     "children": [
       {
-        "id": "bb00a9151e15e1fc",
+        "id": "692ad5f175fe906c",
         "type": "tabs",
         "children": [
           {
-            "id": "45900a0b9e8a20f8",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "z_技术点/GOF的23种设计模式.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "e0dc534922e4fcb2",
+            "id": "1eb014b4f22d505a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -35,22 +20,21 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "8c8dba8660cf0f1c",
+    "id": "a956220c08473a3c",
     "type": "split",
     "children": [
       {
-        "id": "79094a98e9630063",
+        "id": "4ecaa500563ad504",
         "type": "tabs",
         "children": [
           {
-            "id": "b8210e9f649080e1",
+            "id": "fd4e2ba122cf4f45",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -60,7 +44,7 @@
             }
           },
           {
-            "id": "75f60232db6b658c",
+            "id": "6e8a88177f608fd2",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -75,7 +59,7 @@
             }
           },
           {
-            "id": "37d6afaedbd18f5e",
+            "id": "e6a7e7262e2a60ec",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -86,18 +70,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225.5
+    "width": 300
   },
   "right": {
-    "id": "6cfc7d90b3108d7b",
+    "id": "173927ec1a8a0378",
     "type": "split",
     "children": [
       {
-        "id": "b14847e163d857e8",
+        "id": "a3efe3dfd416c56c",
         "type": "tabs",
         "children": [
           {
-            "id": "7ec2f75efe22c751",
+            "id": "40616f284ab4067c",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -114,7 +98,7 @@
             }
           },
           {
-            "id": "f19c2f1ce543b301",
+            "id": "ec35a16f5f9fbc5b",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -126,7 +110,7 @@
             }
           },
           {
-            "id": "419f6428e99fffb8",
+            "id": "d301444dce4cf76f",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,7 +121,7 @@
             }
           },
           {
-            "id": "dd363b3a7865cb2c",
+            "id": "a59d68c05d334db8",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -145,17 +129,8 @@
                 "file": "夕航/周报/大木周报2023.md"
               }
             }
-          },
-          {
-            "id": "9442c1a5ce5030af",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -164,62 +139,15 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "command-palette:打开命令面板": false
     }
   },
-  "active": "e0dc534922e4fcb2",
-  "lastOpenFiles": [
-    "夕航/周报/本周.md",
-    "夕航/周报/大木周报2023.md",
-    "夕航/日记/2023-04-13-星期四.md",
-    "夕航/日记/2023-04-14-星期五.md",
-    "z_技术点/GOF的23种设计模式.md",
-    "夕航/日记/2023-04-03-星期一.md",
-    "夕航/日记/2023-03-16-星期四.md",
-    "夕航/日记/2023-03-15-星期三.md",
-    "夕航/日记/2023-03-17-星期五.md",
-    "夕航/日记/2023-03-20-星期一.md",
-    "夕航/日记/2023-03-21-星期二.md",
-    "夕航/日记/2023-03-22-星期三.md",
-    "夕航/日记/2023-03-23-星期四.md",
-    "夕航/日记/2023-03-07-星期二.md",
-    "夕航/日记/2023-03-24-星期五.md",
-    "夕航/日记/2023-04-04-星期二.md",
-    "夕航/日记/2023-03-14-星期二.md",
-    "夕航/日记/2023-03-13-星期一.md",
-    "夕航/日记/2023-03-10-星期五.md",
-    "夕航/日记/2023-03-09-星期四.md",
-    "夕航/日记/2023-03-08-星期三.md",
-    "夕航/日记/2023-03-03-星期五.md",
-    "模版/日记模版.md",
-    "夕航/日记/2023-03-06-星期一.md",
-    "夕航/日记/2023-03-02-星期四.md",
-    "README.md",
-    "夕航/需求分析/用户禁言需求分析.png",
-    "image/Pasted image 20230330110022.png",
-    "夕航/需求分析/未命名",
-    "夕航/需求分析/无标题-2023-04-03-1206.png.crswap",
-    "夕航/需求分析/用户禁言需求分析.excalidraw.crswap",
-    "夕航/需求分析/用户禁言需求分析.excalidraw",
-    "夕航/需求分析",
-    "image",
-    "okr.pdf",
-    "夕航/xihang",
-    "z_技术点/image/Pasted image 20230322192149.png",
-    "z_技术点/image/Pasted image 20230322191054.png",
-    "夕航/分享",
-    "待整理/复习笔记/image/JavaEE_JVM/mark_sweep.gif",
-    "z_技术点/image/Pasted image 20230322144637.png",
-    "z_技术点/image/Pasted image 20230322144501.png",
-    "z_技术点/image/Pasted image 20230322144230.png",
-    "z_技术点/image/Pasted image 20230322143953.png",
-    "夕航.zip",
-    "未命名.canvas"
-  ]
+  "active": "1eb014b4f22d505a",
+  "lastOpenFiles": []
 }
