@@ -42,8 +42,18 @@
 
 
 ## .gitignore不起作用解决: 
+
 ```shell
 git rm -r --cached .
 git add .
 git commit -m 'update .gitignore'
+```
+
+
+  
+
+## 查看分支来源
+
+```shell
+git reflog --date=local | grep <branchname>
 ```
