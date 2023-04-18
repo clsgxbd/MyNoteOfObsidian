@@ -95,6 +95,12 @@ kubectl delete -f deployment.yaml
 ![](image/Pasted%20image%2020230310102026.png)
 
 
+```shell
+# 查看pod的ip地址
+kubectl get pods -n 命名空间 -o wide | grep pod名称
+```
+
+
 ## 资源管理基本操作
 ### 资源管理介绍
 在kubernetes中，所有的内容都抽象为资源，用户需要通过操作资源来管理kubernetes。

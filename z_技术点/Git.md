@@ -1,6 +1,6 @@
 本地代码 --> 暂存区 --> 本地库 --> 远程库
 
-#上传到GitHub
+## 1. IDEA #上传到GitHub
 
 上传到Gitee
 创建仓库
@@ -28,7 +28,7 @@
 推送成功
 
 
-#### git stash 
+## 2. git stash 用法 
 参考链接: https://www.cnblogs.com/zndxall/archive/2018/09/04/9586088.html
 常用git stash命令：
 （1）**git stash** save "save message"  : 执行存储时，添加备注，方便查找，只有git stash 也要可以的，但查找时不方便识别。
@@ -41,7 +41,7 @@
 （8）`**git stash clear** ：`删除所有缓存的stash
 
 
-## .gitignore不起作用解决: 
+## 3. .gitignore不起作用解决: 
 
 ```shell
 git rm -r --cached .
@@ -52,8 +52,9 @@ git commit -m 'update .gitignore'
 
   
 
-## 查看分支来源
+## 4. 查看分支来源
 
 ```shell
 git reflog --date=local | grep <branchname>
 ```
+
