@@ -123,7 +123,14 @@ public class Swagger2Config {
 }
 ```
 
+#### 访问地址
+boot工程格式如下
 
+http://xxx.xxx.xxx.xxx:xxxx/swagger-ui.html
+
+非boot工程加个自己项目名
+
+http://xxx.xxx.xxx.xxx:xxxx/xxx/swagger-ui.html
 
 
 
