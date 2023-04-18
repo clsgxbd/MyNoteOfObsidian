@@ -124,14 +124,14 @@ public class Swagger2Config {
 ```
 
 #### 访问地址
-boot工程格式如下
 
-http://xxx.xxx.xxx.xxx:xxxx/swagger-ui.html
+```
+boot工程格式如下
+http://ip:端口/swagger-ui.html
 
 非boot工程加个自己项目名
-
-http://xxx.xxx.xxx.xxx:xxxx/xxx/swagger-ui.html
-
+http://ip:端口/项目名/swagger-ui.html
+```
 
 
 
@@ -198,7 +198,7 @@ public class Knife4jConfig {
                 .apiInfo(adminApiInfo())  
                 .select()  
                 //只显示admin路径下的页面  
-                .apis(RequestHandlerSelectors.basePackage("com.atguigu"))  
+                .apis(RequestHandlerSelectors.basePackage("com.xxx"))  
                 .paths(PathSelectors.regex("/admin/.*"))  
                 .build()  
                 .globalOperationParameters(pars);  
@@ -210,8 +210,15 @@ public class Knife4jConfig {
                 .title("后台管理系统-API文档")  
                 .description("本文档描述了后台管理系统微服务接口定义")  
                 .version("1.0")  
-                .contact(new Contact("qy", "http://atguigu.com", "493290402@qq.com"))  
+                .contact(new Contact("#联系人#", "http://#主页#.com", "#邮箱#@qq.com"))    
                 .build();  
     }  
 }
+```
+
+#### 访问地址
+
+```
+
+http://ip:端口/doc.html
 ```
