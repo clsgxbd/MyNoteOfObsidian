@@ -22,6 +22,15 @@
 ZooKeeper 适用于存储和协同相关的关键数据，不适合用于大数据量存储。
 
 
+## 安装  
+### [docker安装zookeeper](https://www.cnblogs.com/caoweixiong/p/12325410.html)
+```
+docker pull zookeeper
+cd /usr/local && mkdir zookeeper && cd zookeeper
+mkdir data
+docker run -d -e TZ="Asia/Shanghai" -p 2181:2181 -v $PWD/data:/data --name zookeeper --restart always zookeeper
+```
+
 
 ## 数据结构
 ZooKeeper维护一个类似文件系统的数据结构（如下官方示意图），每一个子目录项（如app1）都被称作为znode（目录节点），和文件系统一样，我们能够自由的对一个znode进行CRUD，也可以在znode下进行子znode的CRUD，唯一不同的是，znode是可以存储数据的。
