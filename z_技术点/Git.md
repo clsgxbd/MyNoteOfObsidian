@@ -61,7 +61,8 @@ git reflog --date=local | grep <branchname>
 ## 5. git 自定义便捷别名
 
 ```
-#添加到.gitconfig文件中
+# 添加到 .gitconfig 文件中
+
 [alias]
 	df = diff
 	st = status
