@@ -58,3 +58,19 @@ git commit -m 'update .gitignore'
 git reflog --date=local | grep <branchname>
 ```
 
+## 5. git 自定义便捷别名
+
+```
+#添加到.gitconfig文件中
+[alias]
+	df = diff
+	st = status
+	co = checkout
+	ci = commit
+	br = branch
+	back = reset --soft HEAD^
+	lga = log --graph --decorate --oneline --simplify-by-decoration --all
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+
+```
+
