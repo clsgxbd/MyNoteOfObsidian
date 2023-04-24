@@ -55,7 +55,7 @@ git commit -m 'update .gitignore'
 ## 4. 查看分支来源
 
 ```shell
-git reflog --date=local | grep <branchname>
+git reflog show --date=local | grep <branchname>
 ```
 
 ## 5. git 自定义便捷别名
