@@ -12,5 +12,5 @@
   "vimMode": false,
   "tabSize": 2,
   "promptDelete": false,
-  "focusNewTab": false
+  "focusNewTab": true
 }
