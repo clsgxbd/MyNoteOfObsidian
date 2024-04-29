@@ -46,20 +46,6 @@
     },
     {
       "modifiers": [
-        "Ctrl",
-        "Mod"
-      ],
-      "key": "P"
-    },
-    {
-      "modifiers": [
-        "Alt",
-        "Ctrl"
-      ],
-      "key": "P"
-    },
-    {
-      "modifiers": [
         "Mod",
         "Shift"
       ],
