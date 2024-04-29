@@ -2,10 +2,16 @@
 
 - 表格工具: Advanced Tables  	[使用教程](https://www.readinghere.com/blog/obsidian-advanced-tables-plugin/)
 
-## 新建Obsidian项目配置拷贝
-- 快捷键:  拷贝 .obsidian/hotkeys.json 文件
-- 模板 : 直接把"模板"文件夹复制过去 并拷贝 .obsidian/templates.json 文件 
-- 主题: 
+## Obsidian项目配置拷贝
+
+| 配置  | 需拷贝文件                                                                           |
+| :-: | :------------------------------------------------------------------------------ |
+| 快捷键 | .obsidian/hotkeys.json                                                          |
+| 模板  | .obsidian/templates.json<br>"模板"文件夹<br>                                         |
+| 日记  | .obsidian/daily-notes.json<br>"日记"文件夹                                           |
+| 插件  | .obsidian/community-plugins.json<br>.obsidian/plugins   文件夹                     |
+| 主题  | .obsidian/appearance.json<br>.obsidian/bookmarks.json<br>.obsidian/themes   文件夹 |
+
 
 
 
