@@ -1,8 +1,11 @@
 ## 插件
 
-- 表格工具: Advanced Tables  	[使用教程](https://www.readinghere.com/blog/obsidian-advanced-tables-plugin/)
+- 表格工具: Advanced Tables  	[点击查看使用教程](https://www.readinghere.com/blog/obsidian-advanced-tables-plugin/)
+
 
 ## Obsidian项目配置拷贝
+
+ [2024年2月29日备份配置点击下载](https://wwo.lanzout.com/ivLHV1x03e6d) 注意: 如果是旧项目直接覆盖可能可能会删除原有主题
 
 | 配置  | 需拷贝文件                                                                           |
 | :-: | :------------------------------------------------------------------------------ |
