@@ -5,12 +5,12 @@
   "newFileLocation": "folder",
   "alwaysUpdateLinks": true,
   "newLinkFormat": "relative",
-  "newFileFolderPath": "z_技术点",
   "useMarkdownLinks": true,
   "livePreview": true,
   "readableLineLength": false,
   "vimMode": false,
   "tabSize": 2,
   "promptDelete": false,
-  "focusNewTab": true
+  "focusNewTab": true,
+  "newFileFolderPath": "z_技术点"
 }
