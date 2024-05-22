@@ -53,3 +53,4 @@ StartAllBack #StartAllBack
 - 3.右键点击“runas”,同样的方法在它的下面新建项“command”,这时再双击右边的“默认”，将它的数值数据修改为“c:\windows\System32\manage-bde.exe W: -lock”（我加密的是“W”盘，盘符名自己根据需要修改）。
 - 4.关闭注册表。这时候你点击硬盘你会发现多了个“上锁”，只有当你需要加密你在注册表中加密的盘的时候才会有效。当你解锁你的加密磁盘后想再次加密时，只需要点击上锁即可
 - [查看原文](https://www.likecs.com/show-355258.html)
+

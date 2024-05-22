@@ -144,3 +144,25 @@ CONCAT("%","医院","%")  等同于 %医院%
 ## [[MySQL索引下推]]
 ## [[MySQl主从同步原理]]
 ## [[MySQL一主多从配置]]
+
+## 其它
+### windows下MySql服务路径修改
+#### 如何更改服务中MySQL的可执行文件路径：
+> 1，打开CMD输入regedit，打开注册表编辑器
+> 2，根据路径找到mysql注册表
+> 找到以下路径：
+> HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MySQL80，
+> 我电脑上的服务名为：MySQL80你们根据自己得实际情况进行查找。
+> 修改ImagePath值为正确的路径。
+> ![](image/Pasted%20image%2020240522143640.png)
+> 
+#### 如何更改MYSQL的数据库文件路径:
+> 开始--运行--services.msc--找到MySql服务,停止 的默认安装位置:   
+> C:\Program Files\MySQL\MySQL Server 5.0 然后，修改my.ini文件。
+> 进入MySQL的安装目录，找到my.ini，修改datadir的值。
+> datadir="D:/Program Files/MySQL/MySQL Server 5.0/Data/" -- 修改这个值即可 
+> 最后，启动MySQL服务。
+> 开始--运行--services.msc--找到MySql服务,启动
+
+
+
