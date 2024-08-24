@@ -50,7 +50,35 @@ wsl -l -v
 列出所有已经安装的wsl发行版及其版本信息，确定是wsl2（VERSION显示2，说明是wsl2）
 
 1. 创建目标目录
-2. 
+```
+mkdir E:\WSL\BACKUP
+```
+2. 确认路径权限
+```
+echo "test" > E:\WSL\BACKUP\test.txt
+```
+3. 导出当前的wsl发行版
+```
+wsl --export Ubuntu E:\WSL\BACKUP\Ubuntu.tar
+```
+4. 注销（即卸载）当前发行版
+```
+wsl --unregister Ubuntu
+```
+5. 导入WSL发行版到新的位置
+```
+wsl --import Ubuntu E:\WSL\ubuntu E:\WSL\BACKUP\Ubuntu.tar
+```
+6. 验证安装
+```
+wsl -l -v
+```
+7. 启动wsl
+```
+wsl -d Ubuntu
+```
+通过这些步骤，即可成功导出、注销并导入 WSL 发行版到新的位置。
+
 
 ## Windows和WSL相互调用访问
 ### windows中调用wsl命令
@@ -73,7 +101,7 @@ cd /mnt/c   查看C盘下的文件
 ## 备份还原
 
 wsl --export centos <u>C:\users\damu\desktop\centos_backup.tar</u>  备份到桌面
-wsl wsl --import centos  <u>E:\WSL\centos</u> <u>C:\users\damu\desktop\centos_backup.tar</u> 从桌面导入centos子系统
+wsl --import centos  <u>E:\WSL\centos</u> <u>C:\users\damu\desktop\centos_backup.tar</u> 从桌面导入centos子系统
 导入的子系统目录 <u>E:\WSL\centos</u> 下会生成一个ext4.vhdx 虚拟磁盘文件，直接备份这个文件也是可以的
 
 
