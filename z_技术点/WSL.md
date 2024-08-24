@@ -106,6 +106,7 @@ wsl --import centos  <u>E:\WSL\centos</u> <u>C:\users\damu\desktop\centos_backup
 
 
 ## 问题
+### 旧版本wsl不支持systemd问题
 之前的wsl版本是不支持systemd的，只需要在 /etc/wsl.conf 文件的boot分区下加上 systemd=true 即可 ，加好后如下
 
 ``` cat /etc/wsl.conf
@@ -115,7 +116,46 @@ command = /home/damu/start.sh
 ```
 command = /home/damu/start.sh 这个是开机自动启动的一个脚本，可以根据自己的情况自己设置
 
+### wsl无法联网问题
+原教程网站:https://www.ghostchu.com/archives/fix-wsl-no-internet-connection
 
+安装 WSL-VPNKIT
+
+访问 https://github.com/sakai135/wsl-vpnkit/releases/tag/v0.3.2 下载构建好的二进制文件，不要解压。
+
+同目录下使用 PowerShell 运行：
+
+```
+wsl --import wsl-vpnkit $env:USERPROFILE\wsl-vpnkit wsl-vpnkit.tar.gz --version 2
+wsl -d wsl-vpnkit
+```
+
+再运行：
+
+```
+wsl.exe -d wsl-vpnkit service wsl-vpnkit start
+```
+
+启动服务，WSL-VPNKIT 会创建一个到 Windows 宿主机的 VPN 连接，共享网络，WSL 的网络随即恢复。
+
+WSL 的网络在启动 WSL-VPNKIT 后恢复正常
+
+开机自启动
+由于 WSL-VPNKIT 不会开机自启动，需要创建一个脚本帮助恢复桥接。
+
+新建一个脚本文件文件命名为：
+```
+start-wsl2-vpn-bridge.bat
+```
+
+文件内容为：
+```
+@echo off
+wsl.exe -d wsl-vpnkit service wsl-vpnkit start
+```
+
+新建一个计划任务开机启动该脚本文件即可
+特别需要注意的是，一定要勾选 “使用最高权限运行”。
 
 
 
