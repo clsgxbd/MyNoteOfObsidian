@@ -2,7 +2,7 @@
 ## 安装与启动
 ### 安装默认可以安装的子系统发行版
 打开命令提示符
-wsl --install   默认安装Ubuntu系统
+wsl --install   默认安装Ubuntu系统,国内网络下载较慢可以在后面加上 --web-download
 wsl --list --online 查看可以安装的系统
 wsl --install [NAME] 这样可以安装指定的系统
 wsl -l -v 可以查看已经安装的系统  NAME前面带星号的代表默认的wsl
@@ -30,6 +30,8 @@ wsl --import centos <u>E:\WSL\centos</u> <u>Desktop\centos.tar</u>  安装centos
 wsl -l -v  查看已经安装的子系统  就可以看到centos了
 wsl -d centos  进入centos子系统
 
+## WSL常用命令
+wsl -l -v 列出所有已安装的 WSL 发行版及其版本信息：（VERSION显示2，说明是wsl2）
 
 ## Windows和WSL相互调用访问
 ### windows中调用wsl命令
