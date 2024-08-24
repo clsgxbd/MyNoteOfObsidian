@@ -10,6 +10,7 @@ wsl  进入默认的子系统
 wsl -d [NAME] 进入指定NAME的子系统
 wsl --set-default [NAME] 设置默认的子系统
 
+默认安装路径：
 ### 安装其他版本的子系统
 安装其他版本的子系统 需要先进入一个子系统安装docker 或者直接安装windows版本的docker
 
@@ -30,8 +31,26 @@ wsl --import centos <u>E:\WSL\centos</u> <u>Desktop\centos.tar</u>  安装centos
 wsl -l -v  查看已经安装的子系统  就可以看到centos了
 wsl -d centos  进入centos子系统
 
-## WSL常用命令
-wsl -l -v 列出所有已安装的 WSL 发行版及其版本信息：（VERSION显示2，说明是wsl2）
+### 默认安装位置：
+WSL 2: WSL 2 使用一个虚拟硬盘（VHD），存储在 Windows 用户目录下，路径类似于：
+```
+C:\Users\<YourUsername>\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_<version>\LocalState\ext4.vhdx
+```
+
+WSL 1: WSL 1 的文件存储在 Windows 文件系统的目录下，路径类似于：
+```
+C:\Users\<YourUsername>\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_<version>\LocalState\rootfs
+```
+
+### 修改子系统安装位置
+查看wsl版本
+```
+wsl -l -v
+```
+列出所有已经安装的wsl发行版及其版本信息，确定是wsl2（VERSION显示2，说明是wsl2）
+
+1. 创建目标目录
+2. 
 
 ## Windows和WSL相互调用访问
 ### windows中调用wsl命令
@@ -73,4 +92,6 @@ command = /home/damu/start.sh 这个是开机自动启动的一个脚本，可�
 
 
 
-相关学习视频： [如何优雅的使用WSL](https://www.bilibili.com/video/BV1Ku4y1f7nq/?share_source=copy_web&vd_source=**f2fa7181cec391d8d313fc7ffb8e1302)
+相关资料：
+[如何优雅的使用WSL](https://www.bilibili.com/video/BV1Ku4y1f7nq/?share_source=copy_web&vd_source=**f2fa7181cec391d8d313fc7ffb8e1302)
+[修改安装包实际安装位置](http://t.csdnimg.cn/TRbcX)
