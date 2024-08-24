@@ -45,3 +45,25 @@ yum makecache
 
 [rpm命令](rpm命令.md)
 
+
+
+## centos安装桌面环境
+1. 更新yum
+```
+sudo yum update
+```
+
+2. 安装桌面环境
+```
+sudo yum groupinstall "GNOME Desktop" -y
+```
+
+3. 设置默认启动方式
+```
+sudo systemctl set-default graphical.target
+```
+
+4. 重新启动系统
+```
+sudo reboot
+```
