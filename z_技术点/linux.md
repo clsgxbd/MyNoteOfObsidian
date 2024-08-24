@@ -12,4 +12,7 @@ systemctl restart mysqld
 systemctl status mysqld
 ```
 
+## 修改yumji
+
 [rpm命令](rpm命令.md)
+

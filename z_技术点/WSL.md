@@ -127,10 +127,14 @@ command = /home/damu/start.sh 这个是开机自动启动的一个脚本，可�
 
 ```
 wsl --import wsl-vpnkit $env:USERPROFILE\wsl-vpnkit wsl-vpnkit.tar.gz --version 2
-wsl -d wsl-vpnkit
 ```
 
-再运行：
+运行`wsl-vpnkit`。这将`wsl-vpnkit`在前台运行。
+```
+wsl.exe -d wsl-vpnkit --cd /app wsl-vpnkit
+```
+
+或者运行下面代码创建服务：
 
 ```
 wsl.exe -d wsl-vpnkit service wsl-vpnkit start
