@@ -128,8 +128,28 @@ command = /home/damu/start.sh
 command = /home/damu/start.sh 这个是开机自动启动的一个脚本，可以根据自己的情况自己设置
 
 ### wsl无法联网问题
-#### 方案一：升级WSL版本到最新版本
 
+#### 安装 WSL-VPNKIT
+访问 https://github.com/sakai135/wsl-vpnkit/releases/tag/v0.3.2 下载构建好的二进制文件，不要解压。
+
+同目录下使用 PowerShell 运行：  
+
+```
+wsl --import wsl-vpnkit $env:USERPROFILE\wsl-vpnkit wsl-vpnkit.tar.gz --version 2
+```
+<u>$env:USERPROFILE\wsl-vpnkit</u>可以修改为自己指定的目录
+
+运行`wsl-vpnkit`。这将`wsl-vpnkit`在前台运行。
+```
+wsl.exe -d wsl-vpnkit --cd /app wsl-vpnkit
+```
+
+WSL-VPNKIT 会创建一个到 Windows 宿主机的 VPN 连接，共享网络，WSL 的网络随即恢复。
+
+WSL 的网络在启动 WSL-VPNKIT 后恢复正常
+
+
+升级WSL版本到最新版本【可选】
 微软今天属于是史诗级更新 WSL2 到 2.0 版本，带来了以下特性：
 
 1. 支持自动回收内存
@@ -164,49 +184,6 @@ sparseVhd=true
 
 最后，如果你在 WSL 里使用 docker，那需要将 `autoMemoryReclaim` 配置为 `dropcache` 或者 `disabled`，然后在 `/etc/docker/daemon.json` 里添加一句 `"iptables": false` ，否则你可能无法正常使用 docker。
 
-
-
-
-#### 方案二：安装 WSL-VPNKIT
-访问 https://github.com/sakai135/wsl-vpnkit/releases/tag/v0.3.2 下载构建好的二进制文件，不要解压。
-
-同目录下使用 PowerShell 运行：
-
-```
-wsl --import wsl-vpnkit $env:USERPROFILE\wsl-vpnkit wsl-vpnkit.tar.gz --version 2
-```
-
-运行`wsl-vpnkit`。这将`wsl-vpnkit`在前台运行。
-```
-wsl.exe -d wsl-vpnkit --cd /app wsl-vpnkit
-```
-
-或者运行下面代码创建服务：
-
-```
-wsl.exe -d wsl-vpnkit service wsl-vpnkit start
-```
-
-启动服务，WSL-VPNKIT 会创建一个到 Windows 宿主机的 VPN 连接，共享网络，WSL 的网络随即恢复。
-
-WSL 的网络在启动 WSL-VPNKIT 后恢复正常
-
-开机自启动
-由于 WSL-VPNKIT 不会开机自启动，需要创建一个脚本帮助恢复桥接。
-
-新建一个脚本文件文件命名为：
-```
-start-wsl2-vpn-bridge.bat
-```
-
-文件内容为：
-```
-@echo off
-wsl.exe -d wsl-vpnkit service wsl-vpnkit start
-```
-
-新建一个计划任务开机启动该脚本文件即可
-特别需要注意的是，一定要勾选 “使用最高权限运行”。
 
 
 
