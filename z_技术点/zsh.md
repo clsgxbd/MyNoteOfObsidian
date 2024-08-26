@@ -37,7 +37,7 @@ plugins=(
 ### 离线方式安装
 1. 提前下载好zsh的离线rpm安装包和ccaiguang配置好的文件  [点击下载 密码：1234](https://wwen.lanzout.com/b0ukkkekf)
 
-3. rpm方式安装zsh
+3. rpm方式安装zsh ， 如果有网络连接，建议用yum直接安装 （yum install -y zsh）
 ```
 rpm -ivh zsh-5.9-15.fc41.x86_64.rpm 
 ```
