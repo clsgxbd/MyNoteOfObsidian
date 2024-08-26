@@ -165,10 +165,6 @@ sparseVhd=true
 最后，如果你在 WSL 里使用 docker，那需要将 `autoMemoryReclaim` 配置为 `dropcache` 或者 `disabled`，然后在 `/etc/docker/daemon.json` 里添加一句 `"iptables": false` ，否则你可能无法正常使用 docker。
 
 
-Get-NetAdapter
-New-VMSwitch -SwitchName "VETH" -NetAdapterName "WLAN" -AllowManagementOS $True -EnablePacketDirect $True -EnableIov $True
-
-
 
 
 #### 方案二：安装 WSL-VPNKIT
