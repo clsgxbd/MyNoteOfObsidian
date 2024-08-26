@@ -42,3 +42,8 @@ ssh-copy-id user@host
 for host in $(cat hosts.txt); do
     ssh user@$host 'command'
 done
+
+#### zsh
+Linux的终端，oh my zsh 有界面美化代码预测提示补全功能 
+[zsh](zsh.md)
+
