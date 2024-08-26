@@ -169,9 +169,6 @@ Get-NetAdapter
 New-VMSwitch -SwitchName "VETH" -NetAdapterName "WLAN" -AllowManagementOS $True -EnablePacketDirect $True -EnableIov $True
 
 
-winget install --id Microsoft.Powershell.Preview --source winget
-
-
 
 
 #### 方案二：安装 WSL-VPNKIT
