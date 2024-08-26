@@ -168,6 +168,12 @@ sparseVhd=true
 Get-NetAdapter
 New-VMSwitch -SwitchName "VETH" -NetAdapterName "WLAN" -AllowManagementOS $True -EnablePacketDirect $True -EnableIov $True
 
+
+winget install --id Microsoft.Powershell.Preview --source winget
+
+
+
+
 #### 方案二：安装 WSL-VPNKIT
 访问 https://github.com/sakai135/wsl-vpnkit/releases/tag/v0.3.2 下载构建好的二进制文件，不要解压。
 
