@@ -45,5 +45,5 @@ done
 
 #### zsh
 Linux的终端，oh my zsh 有界面美化代码预测提示补全功能 
-[zsh](zsh.md)
+[Zsh](Zsh.md)
 
