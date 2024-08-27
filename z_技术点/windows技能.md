@@ -2,16 +2,43 @@
 
 ## 解决端口占用问题
 #端口占用
+```
 	netstat -ano | findstr "8080" 查看 8080端口号占用的进程id
 	taskkill -f -t /pid 12345 杀死进程12345
 	jps 查看Java进程占用端口
 	jstack 查看Java方法栈
+```
+
+
+## 端口转发
+#端口转发
+```
+# 在虚拟机中查看i
+hostname -I
+
+# 在windows的终端
+# 开启端口转发
+netsh interface portproxy add v4tov4 listenport=<监听端口> listenaddress=0.0.0.0 connectport=<转发端口> connectaddress=<转发到的虚拟机ip>
+
+# 查看转发的端口
+netsh interface portproxy show all
+
+# 删除端口转发
+netsh interface portproxy delete v4tov4 listenport=<监听端口> lstenaddress=0.0.0.0
+
+```
+![](image/ecd102995b4adca6c2e8dc72dece4b2.png)
+
 
 ## 休眠功能
 #休眠功能
+
+```
 	开启休眠功能 powercfg -h on
 	关闭休眠功能 powercfg -h off
 	设置休眠文件大小 powercfg hibernate size XX   (XX: 总内存的百分比)
+```
+
 
 ## 检测网络r是否通畅
 #检测网络是否通畅
@@ -55,16 +82,17 @@ StartAllBack #StartAllBack
 - [查看原文](https://www.likecs.com/show-355258.html)
 
 ## Windows手动创建服务
+
+
+```shell
 打开cmd或 PowerShell（需要管理员权限）。
 
 #### 1、创建服务
-
-使用sc命令创建一个新的服务。
-
-例如，运行以下命令来创建一个名为“MyService”的服务：
-
-```shell
+使用sc命令创建一个新的服务。例如，运行以下命令来创建一个名为“MyService”的服务：
 sc create MyService binPath= "C:\Path\To\MyProgram.exe" start= auto
+
+
+
 ```
 
 其中，“binPath”指定应用程序的路径，“start”指定服务启动类型为自动。
