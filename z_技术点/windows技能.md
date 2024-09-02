@@ -82,52 +82,32 @@ StartAllBack #StartAllBack
 - [查看原文](https://www.likecs.com/show-355258.html)
 
 ## Windows手动创建服务
-
-
+#Windows手动创建服务
 ```shell
-打开cmd或 PowerShell（需要管理员权限）。
+# 打开cmd或 PowerShell（需要管理员权限）。
 
-#### 1、创建服务
-使用sc命令创建一个新的服务。例如，运行以下命令来创建一个名为“MyService”的服务：
+# 1、创建服务   
 sc create MyService binPath= "C:\Path\To\MyProgram.exe" start= auto
+	# 用sc命令创建一个新的服务。例如，运行以上命令来创建一个名为“MyService”的服务：
+	# 其中，“binPath”指定应用程序的路径，“start”指定服务启动类型为自动。
 
-
-
-```
-
-其中，“binPath”指定应用程序的路径，“start”指定服务启动类型为自动。
-
-#### 2、删除服务
-
-```shell
+# 2、删除服务
 sc delete MyService
-```
 
-#### 3、启动服务。
-
-```shell
+# 3、启动服务。
 sc start MyService
-```
 
-#### 4、查询服务状态
-
-```shell
+# 4、查询服务状态
 sc query MyService
-```
+	# 如果服务正在运行，输出会包含“STATE : 4 RUNNING”字样。
 
-如果服务正在运行，输出会包含“STATE : 4 RUNNING”字样。
-
-#### 5、停止服务，请运行以下命令：
-
-```shell
+# 5、停止服务，请运行以下命令：
 sc stop MyService
-```
 
-#### 6、更多命令
-
-```shell
+# 6、更多命令
 sc help # 所有命令
 sc create help # create指令的详细服务
 ```
+来源： [windows手动创建服务](https://www.jianshu.com/p/8d2c8bb987c0)
 
-[windows手动创建服务](https://www.jianshu.com/p/8d2c8bb987c0)
+
