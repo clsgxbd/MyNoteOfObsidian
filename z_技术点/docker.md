@@ -165,5 +165,25 @@ yum remove docker \
    docker attach 容器id  ( 注意: 这种方法进入容器会存在一个问题，当多个终端同时进入容器时，所有窗口会同步显示，所以不太适合生产环境使用)
 9. 查看日志
    docker -logs -f 容器id(或 容器名称)
+10. 查看容器是否设置自启动
+   docker container inspect --format='{{.HostConfig.RestartPolicy.Name}}' <CONTAINER ID/NAMES>
+1. 开启或关闭容器自启动
+   ::开启容器自启动
+   docker  update --restart=always <CONTAINER ID/NAMES>
+   ::关闭容器自启动
+   docker  update --restart=no <CONTAINER ID/NAMES>
+   ::–restart参数
+	   --restart=
+		always			在容器退出时docker将自动重启容器
+		no				默认值，在容器退出时docker不自动重启容器
+		on-failure		在容器非正常退出时（退出状态非0），则docker自动重启容器
+		on-failure:3	在容器非正常退出时重启容器，超过指定次数未能启动容器则放弃
+		unless-stopped	在容器退出时总是重启容器，但是不考虑在docker守护进程启动时就已经停止了的容器
+
+
+
+
+
+
 ```
 
