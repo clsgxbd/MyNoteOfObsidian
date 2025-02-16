@@ -132,6 +132,7 @@ command = /home/damu/start.sh
 command = /home/damu/start.sh 这个是开机自动启动的一个脚本，可以根据自己的情况自己设置
 
 ### wsl无法联网问题
+#wsl网络问题  #wsl无法联网问题
 
 #### 安装 WSL-VPNKIT
 访问 https://github.com/sakai135/wsl-vpnkit/releases/tag/v0.3.2 下载构建好的二进制文件，不要解压。

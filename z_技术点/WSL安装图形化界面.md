@@ -78,42 +78,68 @@ sudo apt install xubuntu-desktop
 sudo apt-get install xrdp
 ```
 
-（2）将端口从3389改为3390，因为此前默认的3389端口已保留用于ubuntu shell
-```
-sudo sed -i 's/3389/3390/g' /etc/xrdp/xrdp.ini
-```
-
-（3）配置启动session，否则远程桌面登录输入密码之后会直接闪退
-```
-echo "gnome-session" > ~/.xsession
-```
-
-（4）启动xrdp服务
+（2）启动xrdp服务
 ```
 sudo systemctl start xrdp
 ```
 
-（5）将xrdp用户添加到`ssl-cert`用户组
+（3）将xrdp用户添加到`ssl-cert`用户组
 ```
 sudo adduser xrdp ssl-cert
 ```
 
-（4）重启xrdp服务
+（4）将端口从3389改为3390，因为此前默认的3389端口已保留用于ubuntu shell
+```
+sudo sed -i 's/3389/3390/g' /etc/xrdp/xrdp.ini
+```
+
+（5）配置启动session，否则远程桌面登录输入密码之后会直接闪退
+```
+echo "gnome-session" > ~/.xsession
+```
+
+（6）重启xrdp服务
 ```
 sudo systemctl restart xrdp
 ```
 
+（7）这时可以查看xrdp服务状态，有绿色的running代表服务成功运行
+```
+sudo systemctl status xrdp
+```
+
+### 五、从Windows启动桌面版Ubuntu  
+1. 按住Windows+ R，在运行框中输入mstsc后按回车
+  ![](image/Pasted%20image%2020250216213202.png)
+2. 计算机输入localhost:3390后按回车
+	注：这里:为英文状态下输入；在这里可以在显示选项里将这个连接另存到桌面，方便以后打开。
+![](image/Pasted%20image%2020250216213325.png)
+3. 在这里输入你的账户和密码并点击OK
+![](image/Pasted%20image%2020250216213855.png)
+4. 首次进入会有几分钟黑屏，正常现象，稍等一会儿就进入桌面了
+![](image/Pasted%20image%2020250216214054.png)
 
 
-
-### 五、
-### 六、
-
-
-
+### 六、解决原生 GNOME 桌面布局,即缺少了左侧的 Dock 栏、桌面图标、托盘图标
+使用 gnome-shell-extensions 包 （最简单最安全的方式）
+1. 安装gnome tweak tool
+```text
+sudo apt install gnome-tweak-tool
+```
+2. 安装 gnome-shell-extensions 包
+```text
+sudo apt install gnome-shell-extensions
+```
+3. 重启ubuntu
+4. 按照图示打开扩展gnome-tweak
+	   ![](image/Pasted%20image%2020250216214914.png)
+5. 开启你需要的扩展即可，例如桌面图标(Desktop Icons NG)，下方任务栏Ubuntu Dock等
+   注： 你也可以在扩展右侧的三个小点里找到设置选项来对扩展进行个性化设置
+	![](image/Pasted%20image%2020250216215318.png)
 
 
 
 参考链接：
 [# 通过WSL2安装Ubuntu24.04系统及图形化界面](https://blog.csdn.net/ddafei/article/details/142798010?fromshare=blogdetail&sharetype=blogdetail&sharerId=142798010&sharerefer=PC&sharesource=weixin_56293388&sharefrom=from_link)
 [# 基于wsl的Ubuntu20.04上安装桌面环境](https://blog.csdn.net/weixin_51551506/article/details/137457894?fromshare=blogdetail&sharetype=blogdetail&sharerId=137457894&sharerefer=PC&sharesource=weixin_56293388&sharefrom=from_link)
+[如何使用 GNOME Shell 扩展 - Linux中国的文章 - 知乎](https://zhuanlan.zhihu.com/p/34608388)
