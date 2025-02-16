@@ -116,6 +116,10 @@ wsl --import centos  <u>E:\WSL\centos</u> <u>C:\users\damu\desktop\centos_backup
 导入的子系统目录 <u>E:\WSL\centos</u> 下会生成一个ext4.vhdx 虚拟磁盘文件，直接备份这个文件也是可以的
 
 
+## 安装图形化页面
+[WSL安装图形化界面](WSL安装图形化界面.md)
+
+
 ## 问题
 ### 旧版本wsl不支持systemd问题
 之前的wsl版本是不支持systemd的，只需要在 /etc/wsl.conf 文件的boot分区下加上 systemd=true 即可 ，加好后如下
