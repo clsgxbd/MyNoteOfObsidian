@@ -69,7 +69,9 @@ sudo reboot
 ```
 
 
-## dpkg 处理软件包 xxx (configure)时出错解决办法
+## 问题
+### dpkg 处理软件包 xxx (configure)时出错解决办法
+#dpkg报错
 **第一步：备份**
 ```
 sudo mv /var/lib/dpkg/info /var/lib/dpkg/info.bak
@@ -98,5 +100,6 @@ sudo rm -rf /var/lib/dpkg/info
 sudo mv /var/lib/dpkg/info.bak /var/lib/dpkg/info
 ```
 上述过程中如果出现错误，暂时忽略，将上述六步完成后再执行安装命令观察问题是否解决。
+
 参考链接：
-[dpkg 处理软件包 xxx (configure)时出错解决办法https://www.cnblogs.com/while19/p/16197181.html
+[dpkg 处理软件包 xxx (configure)时出错解决办法](https://www.cnblogs.com/while19/p/16197181.html)
