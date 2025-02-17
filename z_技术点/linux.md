@@ -1,5 +1,5 @@
 
-## #Linux启动与停止服务
+## Linux启动与停止服务
 
 ```shell
 #启动
@@ -67,3 +67,36 @@ sudo systemctl set-default graphical.target
 ```
 sudo reboot
 ```
+
+
+## dpkg 处理软件包 xxx (configure)时出错解决办法
+**第一步：备份**
+```
+sudo mv /var/lib/dpkg/info /var/lib/dpkg/info.bak
+```
+**第二步：新建**
+```
+sudo mkdir /var/lib/dpkg/info
+```
+**第三步：更新**
+```
+sudo apt update && sudo apt install -f
+```
+**第四步：替换**   
+把更新的文件替换到备份文件夹
+```
+sudo mv /var/lib/dpkg/info/* /var/lib/dpkg/info.bak 
+```
+**第五步：删除**
+把自己新建的info文件夹删掉
+```
+sudo rm -rf /var/lib/dpkg/info
+```
+**第六步：还原**
+把备份的info.bak还原
+```
+sudo mv /var/lib/dpkg/info.bak /var/lib/dpkg/info
+```
+上述过程中如果出现错误，暂时忽略，将上述六步完成后再执行安装命令观察问题是否解决。
+参考链接：
+[dpkg 处理软件包 xxx (configure)时出错解决办法https://www.cnblogs.com/while19/p/16197181.html
