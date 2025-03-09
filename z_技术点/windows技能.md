@@ -136,8 +136,8 @@ net start webclient
 计算机 –> 右键 –> 映射网络驱动器 –> 填写相应的信息 –> 完成
   ![](https://skylens.github.io/assets/post_pictures/win10_webdav.png)
 
-### Windows文件大小超出允许的限制，无法保存
-来源 [Windows文件大小超出允许的限制，无法保存](https://blog.52nyg.com/2021/06/691)
+### 问题：Windows文件大小超出允许的限制，无法保存
+来源: [Windows文件大小超出允许的限制，无法保存](https://blog.52nyg.com/2021/06/691)
 
 WebDav连接上后，结果提示：
 在webdav中复制文件出来会提示此错误:"文件大小超出允许的限制，无法保存"
