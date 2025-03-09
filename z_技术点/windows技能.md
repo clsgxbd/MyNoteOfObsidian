@@ -111,3 +111,47 @@ sc create help # create指令的详细服务
 来源： [windows手动创建服务](https://www.jianshu.com/p/8d2c8bb987c0)
 
 
+## WebDAV映射网络驱动器
+#WebDAV映射网络驱动器 #映射Alist
+
+### Windowsb不支持HTTP方式的 WebDAV 映射
+来源：[WebDAV映射网络驱动器](https://skylens.github.io/2017/12/14/win10_webdav.html)
+
+发现 Windows 默认只支持 HTTPS 方式的 WebDAV 映射，默认不支持 HTTP 方式的 WebDAV 映射，有没有办法在不安装第三方客户端的情况下，让 Windows 支持 HTTP 方式的 WebDAV 映射呢？上网一查是有的，只不过要改注册表
+
+**具体步骤:**
+1. 改注册表
+计算机\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WebClient\Parameters 下，把 BasicAuthLevel 的值改为 2 ( ‘1’ 默认只支持 HTTPS，’2’ 支持 HTTP 和 HTTPS)
+![](https://img2020.cnblogs.com/blog/1988160/202112/1988160-20211218112347729-1225768691.png)
+
+
+2. 重启服务
+**以管理员身份运行**
+```dos
+net stop webclient 
+net start webclient
+```
+
+3. 映射网络驱动器
+计算机 –> 右键 –> 映射网络驱动器 –> 填写相应的信息 –> 完成
+  ![](https://skylens.github.io/assets/post_pictures/win10_webdav.png)
+
+### Windows文件大小超出允许的限制，无法保存
+来源 [Windows文件大小超出允许的限制，无法保存](https://blog.52nyg.com/2021/06/691)
+
+WebDav连接上后，结果提示：
+在webdav中复制文件出来会提示此错误:"文件大小超出允许的限制，无法保存"
+![Windows文件大小超出允许的限制，无法保存插图](https://blog-cdn.52nyg.com/wp-content/uploads/2021/06/Snipaste_2021-06-15_16-35-21.jpg "Windows文件大小超出允许的限制，无法保存插图")
+
+这是因为Windows默认限制为50MB文件大小 超出不允许复制
+解决方法：  
+1. 按 Win + R 键  
+2. 在运行窗口输入regedit,按回车  
+3. 在打开的注册表编辑器中进入这个地址：HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WebClient\Parameters  
+4. 找到FileSizeLimitInBytes，双击打开  
+5. 在打开的设置窗口，选择decimal（十进制）  
+6. 修改限制的大小，比如加个0（默认是50M,即50000000）其实有最大值限制，4294967295~4,095.9MB=4GB，也就是32位系统能提供的最大值了
+![](https://img2020.cnblogs.com/blog/1988160/202112/1988160-20211218113014692-237175203.png)
+
+7. 修改好后，再选择hexadecimal（十六进制）  
+8. 保存，然后重启电脑
