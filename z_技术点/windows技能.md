@@ -155,3 +155,18 @@ WebDav连接上后，结果提示：
 
 7. 修改好后，再选择hexadecimal（十六进制）  
 8. 保存，然后重启电脑
+
+
+
+## 静态IP地址变成169.254.x.x
+来源：[IP地址变成169.254.x.x 的解决办法](https://www.cnblogs.com/harmanchen/p/16058463.html)
+原因：一般原因可能是路由器<u> 未开启 DHCP 服务</u> 时，当 IP 地址冲突或其他冲突出现时，客户端操作系统中的  <u>自动专用 IP 寻址（Automatic Private IP Addressing, APIPA）</u> 功能会为本机自动分配一个 169.254.x.x 段地址。
+
+解决方法： win+R → 输入 regedit → 回车 → 打开注册表 → 进入路径：
+```
+计算机\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters
+```
+ → 该路径下 新建 DWORD (32 位) 值，命名为  ArpRetryCount ，重启即可
+
+
+
