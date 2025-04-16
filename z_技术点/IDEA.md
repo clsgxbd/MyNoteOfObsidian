@@ -27,3 +27,8 @@
 未设置栈大小默认：11416次  设置VM参数：-Xss256k 2475次 
 ![](image/Pasted%20image%2020221125081048.png)
 
+
+##  Shift+F6 快速重命名 快捷键失效的问题
+原因： WIin11自带的微软拼音输入法有冲突
+来源： [解决 Win11 微软拼音输入法下 JetBrains IDE Shift+F6 失效的问题](https://www.cnblogs.com/eslzzyl/p/18146945 "发布于 2024-04-19 22:46")
+解决方法： 给idea安装一个名为"Imefix"的插件
